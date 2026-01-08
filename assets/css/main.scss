@@ -8,6 +8,11 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
+/* 폰트 변수 수정 */
+$global-font-family: "Lato", sans-serif;
+$header-font-family: "Lato", sans-serif;
+$caption-font-family: "Lato", sans-serif;
+
 @import
     "vendor/breakpoint/breakpoint",
 
