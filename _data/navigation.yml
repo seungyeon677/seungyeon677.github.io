@@ -17,11 +17,11 @@ main:
   - title: "CV" # 핵심 요약본이므로 접근하기 쉬운 위치에 배치합니다.
     url: /cv/
 
-  - title: "Educations" 
+  - title: "Talks" 
     url: /talks/    
 
-  - title: "Skills" # 
+  - title: "Teaching" # 
     url: /teaching/    
     
-  - title: "Photos" 
+  - title: "News" 
     url: /year-archive/
