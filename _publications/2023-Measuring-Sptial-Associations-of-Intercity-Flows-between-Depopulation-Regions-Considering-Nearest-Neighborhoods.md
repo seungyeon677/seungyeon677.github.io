@@ -1,5 +1,6 @@
 ---
 title: "Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods"
+title_size: small
 collection: publications
 category: manuscripts
 permalink: /publication/2023-Measuring-Sptial-Associations-of-Intercity-Flows-between-Depopulation-Regions-Considering-Nearest-Neighborhoods
