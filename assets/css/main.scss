@@ -46,3 +46,8 @@ $caption-font-family: "Lato", sans-serif;
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* 파일 맨 아래에 추가 */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif !important;
+}
