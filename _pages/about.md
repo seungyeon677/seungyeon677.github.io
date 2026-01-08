@@ -18,7 +18,7 @@ During my graduate studies, I participated in the **IITP Global Research Support
     <td style="width: 50%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/navigation.png" style="width: 90%; border-radius: 10px; border: 1px solid #ddd;">
       <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">
-        * GIS and Spatio-Temporal Data Analytics
+        GIS and Spatio-Temporal Data Analytics
       </p>
     </td>
     <td style="width: 50%; border: none; text-align: center; vertical-align: top;">
