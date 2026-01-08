@@ -84,20 +84,22 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Peer-Reviewed Journal Articles' # 'Journal Articles'보다 더 전문적이고 신뢰감을 줍니다.
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Presentations' # 'Papers'보다 구두 발표나 포스터 발표를 모두 아우르는 넓은 표현입니다.
+  books:
+    title: 'Books and Book Chapters' # 나중에 저서의 일부를 집필할 경우를 대비한 표현입니다.
+  working_papers:
+    title: 'Working Papers' # [추가 추천] 현재 투고 중이거나 준비 중인 논문을 보여주기 좋습니다.
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : true      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -125,7 +127,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -143,14 +145,18 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png" # Social media default site image
+og_description           : "Personal Website of Seungyeon Lee." # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Seungyeon Lee"# If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://www.linkedin.com/in/leesy1
+    - https://github.com/seungyeon677
+    - https://scholar.google.com/citations?user=i70YXFAAAAAJ&hl
+    
 
 
 # Analytics
@@ -165,6 +171,9 @@ include:
   - .htaccess
   - _pages
   - files
+  - _publications
+  - _portfolio
+  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
