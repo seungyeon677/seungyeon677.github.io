@@ -19,7 +19,7 @@ Abstract: South Korea faces a serious demographic crisis, characterised by a fas
     <td><img src="/images/KGS2023_2.jpg" alt="2"></td>
   </tr>
   <tr style="text-align: center; font-size: 0.8rem;">
-    <td>Typology of Univariate Flows across the Jeolla Region ((a) Trip Volume, (b) Sales Volume) </td>
-    <td>Typology of Bivariate Flows across the Jeolla Region ((a) Based on Trip Volumne, (b) Based on Sales Volume)</td>
+    <td>Univariate Flows <br> across the Jeolla Region <br> ((a) Trip Volume, (b) Sales Volume) </td>
+    <td>Bivariate Flows <br> across the Jeolla Region <br> ((a) Based on Trip Volumne, (b) Based on Sales Volume)</td>
   </tr>
 </table>
