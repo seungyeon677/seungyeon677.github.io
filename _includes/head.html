@@ -3,24 +3,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 <style>
-  /* 1. 전체 텍스트 및 제목 */
+  /* 1. 전체 및 제목 */
   body, h1, h2, h3, h4, h5, h6, 
   .site-title, .nav__items, .archive__item-title {
     font-family: 'Lato', sans-serif !important;
   }
 
-  /* 2. 사이드바 (프로필 이름, 설명, 링크 등) */
+  /* 2. 사이드바 전체 및 내부 모든 텍스트/링크 */
   .sidebar, 
-  .sidebar .author__name, 
-  .sidebar .author__bio, 
-  .sidebar .author__urls,
-  .sidebar .nav__list,
-  .sidebar .nav__title {
+  .sidebar * {
     font-family: 'Lato', sans-serif !important;
   }
 
-  /* 3. 하단 푸터 및 기타 요소 */
-  .page__footer, .pagination, .page__taxonomy {
+  /* 3. SNS 아이콘 옆 글자들 (Email, Google Scholar 등) 명시적 지정 */
+  .author__urls.social-icons li,
+  .author__urls.social-icons li a,
+  .author__urls.social-icons li span {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 400 !important; /* 굵기 조절 필요시 수정 */
+  }
+
+  /* 4. 기타 놓치기 쉬운 버튼 및 푸터 */
+  .btn, .page__footer, .pagination {
     font-family: 'Lato', sans-serif !important;
   }
 </style>
