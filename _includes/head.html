@@ -38,6 +38,16 @@
     letter-spacing: -0.05em; /* 글자 간격을 살짝 좁혀 더 세련되게 */
   }
 
+  /* 사이드바를 제외한 '본문 영역'만 폰트 사이즈 줄이기 */
+  .page__content p, 
+  .page__content li, 
+  .page__content table, 
+  .page__content blockquote {
+    font-size: 0.95rem !important; /* 본문 글자 크기 */
+    line-height: 1.6 !important;   /* 줄 간격 */
+    color: #333333 !important;    /* 글자 색상 */
+  }
+
   /* 4. 하단 푸터 및 기타 요소 */
   .page__footer, .pagination, .page__taxonomy {
     font-family: 'Lato', sans-serif !important;
