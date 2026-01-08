@@ -3,7 +3,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 <style>
-  body, h1, h2, h3, h4, h5, h6, .site-title, .nav__items, .archive__item-title {
+  /* 1. 전체 텍스트 및 제목 */
+  body, h1, h2, h3, h4, h5, h6, 
+  .site-title, .nav__items, .archive__item-title {
+    font-family: 'Lato', sans-serif !important;
+  }
+
+  /* 2. 사이드바 (프로필 이름, 설명, 링크 등) */
+  .sidebar, 
+  .sidebar .author__name, 
+  .sidebar .author__bio, 
+  .sidebar .author__urls,
+  .sidebar .nav__list,
+  .sidebar .nav__title {
+    font-family: 'Lato', sans-serif !important;
+  }
+
+  /* 3. 하단 푸터 및 기타 요소 */
+  .page__footer, .pagination, .page__taxonomy {
     font-family: 'Lato', sans-serif !important;
   }
 </style>
