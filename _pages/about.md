@@ -27,5 +27,17 @@ During my graduate studies, I participated in the **IITP Global Research Support
         Urban Mobility & Traffic Safety
       </p>
     </td>
+    <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
+      <img src="{{ base_path }}/images/deep-learning.png" style="width: 90%; border-radius: 10px;">
+      <p style="font-size: 0.85rem; color: #666; margin-top: 10px; text-align: center">
+        GeoAI & Spatial Deep Learning
+      </p>
+    </td>
+    <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
+      <img src="{{ base_path }}/images/immigrant.png" style="width: 90%; border-radius: 10px;">
+      <p style="font-size: 0.85rem; color: #666; margin-top: 10px; text-align: center">
+        Spatial Disparity & Accessibility
+      </p>
+    </td>
   </tr>
 </table>
