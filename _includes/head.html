@@ -3,13 +3,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 <style>
-  /* 1. 전체 텍스트 및 제목 */
+  /* 전체 텍스트 및 제목 */
   body, h1, h2, h3, h4, h5, h6, 
   .site-title, .nav__items, .archive__item-title {
     font-family: 'Lato', sans-serif !important;
   }
 
-  /* 2. 상단 메뉴 탭 (내비게이션 바) */
+  /* 상단 메뉴 탭 (내비게이션 바) */
   .masthead, 
   .masthead__menu, 
   .masthead__menu-item, 
@@ -21,7 +21,7 @@
     font-weight: 700 !important; /* 탭 메뉴를 조금 더 또렷하게 하고 싶다면 700(Bold) 사용 */
   }
   
-  /* 3. 사이드바 (프로필 이름, 설명, 링크 등) */
+  /* 사이드바 (프로필 이름, 설명, 링크 등) */
   .sidebar, 
   .sidebar .author__name, 
   .sidebar .author__bio, 
@@ -33,7 +33,7 @@
 
   /* 페이지 메인 제목 (About Me 등 큰 제목) */
   .page__title {
-    font-size: 2.3rem !important; /* 아주 크게 */
+    font-size: 2.5rem !important; /* 아주 크게 */
     font-weight: 900 !important;
     letter-spacing: -0.05em; /* 글자 간격을 살짝 좁혀 더 세련되게 */
     color: #9D1C20 !important;
@@ -106,8 +106,15 @@
   .wordwrap a:hover {
     text-decoration: underline !important; /* 마우스 올렸을 때만 밑줄 */
   }
+
+  /* URL 경로에 'publication'이 포함된 페이지의 제목만 크기 수정 */
+  body[class*="publication"] .page__title,
+  .layout--single.publication .page__title {
+    font-size: 1.25rem !important; /* h3 수준 크기 */
+    font-weight: 700 !important;
+  }
   
-  /* 4. 하단 푸터 및 기타 요소 */
+  /* 하단 푸터 및 기타 요소 */
   .page__footer, .pagination, .page__taxonomy {
     font-family: 'Lato', sans-serif !important;
   }
