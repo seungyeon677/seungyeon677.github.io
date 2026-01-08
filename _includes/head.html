@@ -54,6 +54,17 @@
     color: #333333 !important;    /* 글자 색상 */
   }
 
+  /* 표(Table) 전체 폰트 및 스타일 수정 */
+  .page__content table, 
+  .page__content th, 
+  .page__content td {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 0.9rem !important;      /* 표 안의 글자를 본문(0.95rem)보다 조금 더 작게 설정 */
+    line-height: 1.5 !important;
+    color: #444444 !important;         /* 표 내용은 가독성을 위해 짙은 회색으로 */
+    border: none !important;           /* 이미지 배치용 표라면 테두리를 제거 */
+  }
+
   /* 4. 하단 푸터 및 기타 요소 */
   .page__footer, .pagination, .page__taxonomy {
     font-family: 'Lato', sans-serif !important;
