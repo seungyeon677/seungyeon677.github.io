@@ -70,6 +70,24 @@
     border: none !important;           /* 이미지 배치용 표라면 테두리를 제거 */
   }
 
+  /* 클래스 자체와 그 안의 모든 p 태그에 스타일 강제 적용 */
+  .archive__item-excerpt,
+  .archive__item-excerpt p {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 0.85rem !important; /* 원하는 크기 */
+    line-height: 1.4 !important;
+    color: #666 !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  /* Read more 링크 스타일 */
+  .archive__item-excerpt a {
+    font-weight: bold;
+    color: #c0392b; /* 포인트 컬러인 빨간색 적용 */
+    text-decoration: none;
+  }
+  
   /* 4. 하단 푸터 및 기타 요소 */
   .page__footer, .pagination, .page__taxonomy {
     font-family: 'Lato', sans-serif !important;
