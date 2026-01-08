@@ -3,32 +3,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 <style>
-  /* 1. 전체 및 제목 적용 */
+  /* 1. 전체 텍스트 및 제목 */
   body, h1, h2, h3, h4, h5, h6, 
   .site-title, .nav__items, .archive__item-title {
     font-family: 'Lato', sans-serif !important;
   }
 
-  /* 2. 사이드바 텍스트만 적용 (아이콘 제외) */
+  /* 2. 사이드바 (프로필 이름, 설명, 링크 등) */
   .sidebar, 
   .sidebar .author__name, 
   .sidebar .author__bio, 
-  .sidebar .nav__list {
+  .sidebar .author__urls,
+  .sidebar .nav__list,
+  .sidebar .nav__title {
     font-family: 'Lato', sans-serif !important;
   }
 
-  /* 3. SNS 링크 텍스트만 적용하고, 아이콘(fa-*)은 원래 폰트 유지 */
-  .author__urls.social-icons li a {
-    font-family: 'Lato', sans-serif !important;
-  }
-
-  /* 핵심: Font Awesome 아이콘 클래스는 Lato를 적용하지 않음 */
-  .fab, .fas, .far, .fal, .fad, [class^="fa-"], [class*=" fa-"] {
-    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands" !important;
-  }
-
-  /* 4. 기타 요소 */
-  .btn, .page__footer, .pagination {
+  /* 3. 하단 푸터 및 기타 요소 */
+  .page__footer, .pagination, .page__taxonomy {
     font-family: 'Lato', sans-serif !important;
   }
 </style>
