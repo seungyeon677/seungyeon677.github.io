@@ -70,22 +70,20 @@
     border: none !important;           /* 이미지 배치용 표라면 테두리를 제거 */
   }
 
-  /* 클래스 자체와 그 안의 모든 p 태그에 스타일 강제 적용 */
-  .archive__item-excerpt,
-  .archive__item-excerpt p {
+  /* 논문 목록(Archive)의 아이템 안에 있는 모든 p 태그 타겟팅 */
+  .archive__item p,
+  .list__item p {
     font-family: 'Lato', sans-serif !important;
-    font-size: 0.85rem !important; /* 원하는 크기 */
+    font-size: 0.8rem !important;  /* 요약문 크기 */
     line-height: 1.4 !important;
-    color: #666 !important;
+    color: #666666 !important;
     margin-top: 5px !important;
     margin-bottom: 5px !important;
   }
 
-  /* Read more 링크 스타일 */
-  .archive__item-excerpt a {
-    font-weight: bold;
-    color: #c0392b; /* 포인트 컬러인 빨간색 적용 */
-    text-decoration: none;
+  /* 만약 위 코드가 안 먹는다면, 더 상위인 본문 영역을 포함 */
+  .page__content .archive__item p {
+    font-size: 0.8rem !important;
   }
   
   /* 4. 하단 푸터 및 기타 요소 */
