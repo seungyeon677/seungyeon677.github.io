@@ -3,7 +3,7 @@ title: "Measuring Spatial Associations of Intercity Flows between Depopulation R
 title_size: small
 collection: publications
 category: manuscripts
-permalink: /publication/2023-Measuring-Sptial-Associations-of-Intercity-Flows-between-Depopulation-Regions-Considering-Nearest-Neighborhoods
+permalink: /publications/2023-Measuring-Sptial-Associations-of-Intercity-Flows-between-Depopulation-Regions-Considering-Nearest-Neighborhoods
 excerpt: ''
 date: Dec 31 2023
 venue: 'Journal of the Korean Geographical Society'
