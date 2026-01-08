@@ -15,13 +15,13 @@ During my graduate studies, I participated in the **IITP Global Research Support
 
 <table style="width: 100%; border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td style="width: 50%; border: none; text-align: center; vertical-align: top;">
+    <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/navigation.png" style="width: 90%; border-radius: 10px;">
       <p style="font-size: 0.85rem; color: #666; margin-top: 10px; text-align: center">
         GIS & Spatio-Temporal <br> Data Analytics
       </p>
     </td>
-    <td style="width: 50%; border: none; text-align: center; vertical-align: top;">
+    <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/smart-car.png" style="width: 90%; border-radius: 10px;">
       <p style="font-size: 0.85rem; color: #666; margin-top: 10px; text-align: center">
         Urban Mobility & Traffic Safety
