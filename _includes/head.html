@@ -106,6 +106,26 @@
   .wordwrap a:hover {
     text-decoration: underline !important; /* 마우스 올렸을 때만 밑줄 */
   }
+
+  /* 상세 페이지 하단 인용구 및 다운로드 링크 영역 */
+  .page__content p[style*="smaller"], 
+  .page__content p:last-of-type {
+    font-size: 0.75rem !important;  /* 글자 크기를 더 작게 */
+    color: #888888 !important;      /* 색상을 약간 연한 회색으로 */
+    line-height: 1.5 !important;    /* 줄 간격 조절 */
+    margin-top: 2rem !important;    /* 본문과 간격 띄우기 */
+  }
+
+  /* 인용구 안의 링크(Download Paper 등) 스타일 */
+  .page__content p[style*="smaller"] a {
+    color: #003494 !important;      /* 경희대 블루 적용 */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .page__content p[style*="smaller"] a:hover {
+    text-decoration: underline;
+  }
   
   /* 하단 푸터 및 기타 요소 */
   .page__footer, .pagination, .page__taxonomy {
