@@ -17,11 +17,11 @@ main:
   - title: "CV" # 핵심 요약본이므로 접근하기 쉬운 위치에 배치합니다.
     url: /cv/
 
-  - title: "Talks" # 학회 발표 실적
+  - title: "Educations" 
     url: /talks/    
 
-  - title: "Teaching" # 강의 및 조교 경력
+  - title: "Skills" # 
     url: /teaching/    
     
-  - title: "News" # 'Blog Posts' 대신 'News'라는 명칭이 연구자 사이트에서 더 자주 쓰입니다.
+  - title: "Photos" 
     url: /year-archive/
