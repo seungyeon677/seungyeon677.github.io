@@ -17,25 +17,25 @@ During my graduate studies, I participated in the **IITP Global Research Support
   <tr style="border: none;">
     <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/navigation.png" style="width: 90%; border-radius: 10px;">
-      <p style="font-size: 0.5rem; color: #666; margin-top: 10px; text-align: center">
+      <p style="color: #666; margin-top: 10px; text-align: center">
         GIS & Spatio-Temporal <br> Data Analytics
       </p>
     </td>
     <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/self-driving.png" style="width: 90%; border-radius: 10px;">
-      <p style="font-size: 0.5rem; color: #666; margin-top: 10px; text-align: center">
+      <p style="color: #666; margin-top: 10px; text-align: center">
         Urban Mobility & Traffic Safety
       </p>
     </td>
     <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/deep-learning.png" style="width: 90%; border-radius: 10px;">
-      <p style="font-size: 0.5rem; color: #666; margin-top: 10px; text-align: center">
+      <p style="color: #666; margin-top: 10px; text-align: center">
         GeoAI & Spatial Deep Learning
       </p>
     </td>
     <td style="width: 25%; border: none; text-align: center; vertical-align: top;">
       <img src="{{ base_path }}/images/immigrant.png" style="width: 90%; border-radius: 10px;">
-      <p style="font-size: 0.5rem; color: #666; margin-top: 10px; text-align: center">
+      <p style="color: #666; margin-top: 10px; text-align: center">
         Spatial Disparity & Accessibility
       </p>
     </td>
