@@ -44,11 +44,6 @@
     font-weight: 750 !important;
   }
 
-  /h3 {
-    font-size: 1.2rem !important;
-    font-weight: 700 !important;
-  }/
-
   /* 사이드바를 제외한 '본문 영역'만 폰트 사이즈 줄이기 */
   .page__content p, 
   .page__content li,  
@@ -92,11 +87,13 @@
 
   /* 논문 제목 및 강조 텍스트 */
   .archive__item-title a {
+    text-decoration: none !important;
     font-size: 1.2rem !important;
     font-weight: 700 !important;
-    color: #222222 !important; /* 제목은 가독성을 위해 검정색 유지하거나 */
+    color: #444444 !important; /* 제목은 가독성을 위해 검정색 유지하거나 */
   }
   .archive__item-title a:hover {
+    text-decoration: underline !important;
     color: #253A73 !important; /* 마우스 올렸을 때 블루로 변경 */
   }
 
