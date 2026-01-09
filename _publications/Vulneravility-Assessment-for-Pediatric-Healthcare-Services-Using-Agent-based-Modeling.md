@@ -1,10 +1,10 @@
 ---
-title: "Paper Title Number 2"
+title: "Vulnerability Assessment for Pediatric Healthcare Services Using Agent–based Modeling: A Case Study of Four Districts in Southwest Seoul"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
+permalink: /publication/Vulneravility-Assessment-for-Pediatric-Healthcare-Services-Using-Agent-based-Modeling
+excerpt:
+date: April 2024
 venue: 'Journal 1'
 slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://academicpages.github.io/files/paper2.pdf'
