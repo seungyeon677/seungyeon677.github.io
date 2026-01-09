@@ -36,10 +36,6 @@ citation: ' Seong, J. C., <b>Lee, S.</b>, Cho, Y., & Hwang, C. S. (2025). Beyond
   </div>
 
   <div style="width: 100%; text-align: center;">
-    <img src="/images/ijgi2025_5.png" style="width: 60%;" alt="5"> <p style="font-size: 0.8rem; color: #666;"><b>Figure 5</b>. Mann-Kendall test results in individual cities</p>
+    <img src="/images/ijgi2025_5.png" style="width: 100%;" alt="5"> <p style="font-size: 0.8rem; color: #666;"><b>Figure 5</b>. Mann-Kendall test results in individual cities</p>
   </div>
-
-  <p align="center" style="font-size: 0.85rem; color: #666; margin-top: 20px;">
-    <i><b>Figure X.</b> Overall title of the figures from (a) to (e).</i>
-  </p>
 </div>
