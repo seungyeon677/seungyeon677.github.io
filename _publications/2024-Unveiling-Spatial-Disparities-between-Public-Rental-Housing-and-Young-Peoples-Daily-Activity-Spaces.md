@@ -3,7 +3,7 @@ title: "Unveiling Spatial Disparities between Public Rental Housing and Young Pe
 title_size: small
 collection: publications
 category: manuscripts
-permalink: /publications/2024-Unveiling-Spatial-Disparities-between-Public-Rental-Housing-and-Young-People's-Daily-Activity-Spaces
+permalink: /publications/2024-Unveiling-Spatial-Disparities-between-Public-Rental-Housing-and-Young-Peoples-Daily-Activity-Spaces
 excerpt: ''
 date: Aug 2024
 venue: 'Journal of the Korean Geographical Society'
