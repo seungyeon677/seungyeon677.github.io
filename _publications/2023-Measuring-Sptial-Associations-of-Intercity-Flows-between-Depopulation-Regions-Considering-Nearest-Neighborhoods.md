@@ -13,7 +13,22 @@ citation: 'Lee, S., Hwang, T., Do Lee, W., & Hwang, C. S. (2023). 최근린 권�
 ---
 Abstract: South Korea faces a serious demographic crisis, characterised by a faster total population decline and imbalance of population flows, particularly rural-to-urban migration of young people. The central government has designated 89 cities and counties across South Korea as" depopulation regions" for intensive support. Partnerships and collaboration with these local authorities are necessary to tackle long-term population and economic decline. To do this, it is vital to understand and measure the magnitude of inter-city relationships between regions. Previous studies have tended to measure inter-city relationships using inter-city flows data, but focused on origin-destination pairwise analysis. However, daily activity spaces of individuals are not limited to near homes and workplaces, as people can visit more destinations during their daily routines. To this end, this study measures the relationships between depopulation regions and evaluates their spatial associations, which accounts for neighboring areas. The analysis results find strong associations between depopulation regions, but these associations are relatively insignificant without considering their neighboring areas. The paper concludes by discussing the policy implications of these findings.
 
-![Figure 1](/images/KGS2023_1.jpg)
-Figure 1. Univariate Flows across the Jeolla Region ((a) Trip Volume, (b) Sales Volume)
-![Figure 2](/images/KGS2023_2.jpg)
-Figure 2. Bivariate Flows across the Jeolla Region ((a) Based on Trip Volume, (b) Based on Sales Volume)
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 20px 0; border-bottom: 1px solid #eee;">
+      <img src="/images/photo1.jpg" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 1">
+      <p align="center" style="font-size: 0.85rem; color: #666;">
+        <b>Figure 1.</b> Typology of Univariate Flows across the Jeolla Region: (a) Trip Volume, (b) Sales Volume
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding: 20px 0; border-bottom: 1px solid #eee;">
+      <img src="/images/photo2.jpg" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 2">
+      <p align="center" style="font-size: 0.85rem; color: #666;">
+        <b>Figure 2.</b> Typology of Bivariate Flows across the Jeolla Region: (a) Based on Trip Volume, (b) Based on Sales Volume
+      </p>
+    </td>
+  </tr>
+</table>
