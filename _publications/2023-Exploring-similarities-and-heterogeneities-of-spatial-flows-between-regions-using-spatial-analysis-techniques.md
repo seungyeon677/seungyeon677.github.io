@@ -7,7 +7,7 @@ permalink: /publications/2023-Exploring-similarities-and-heterogeneities-of-spat
 excerpt: ''
 date: Jun 2023
 venue: 'Proceedings of the Korean Geographical Society Conference'
-paperurl: ''
+paperurl: 
 citation: "<b>Lee, S.</b>, Hwang, T., Hwang, C. S., & Lee, W. (2023, June). 공간분석기법을 활용한 지역 간 공간적 흐름의 유사성과 이질성 탐색 (Exploring similarities and heterogeneities of spatial flows between regions using spatial analysis techniques) [Paper presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 147-148."
 ---
 
