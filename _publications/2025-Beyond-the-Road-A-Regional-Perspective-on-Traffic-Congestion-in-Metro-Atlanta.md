@@ -27,11 +27,11 @@ citation: ' Seong, J. C., <b>Lee, S.</b>, Cho, Y., & Hwang, C. S. (2025). Beyond
   <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
     <div style="width: 49%; text-align: center;">
       <img src="/images/ijgi2025_3.png" style="width: 100%;" alt="3">
-      <p style="font-size: 0.8rem; color: #666;"><b>Figure 3</b>. Annual average daily congestion (AADC) Amounts</p>
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 3</b>. Annual average daily congestion (AADC) amounts</p>
     </div>
     <div style="width: 49%; text-align: center;">
       <img src="/images/ijgi2025_4.png" style="width: 100%;" alt="4">
-      <p style="font-size: 0.8rem; color: #666;"><b>Figure 4</b>. Normalized congestion amounts.</p>
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 4</b>. Normalized congestion amounts</p>
     </div>
   </div>
 
