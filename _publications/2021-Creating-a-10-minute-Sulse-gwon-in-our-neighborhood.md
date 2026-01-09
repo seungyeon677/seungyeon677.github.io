@@ -2,7 +2,7 @@
 title: "Creating a 10–minute 'Sulse–gwon' in our neighborhood: Analysis of living SOC status and resident perception in Dongdaemun–gu"
 title_size: small
 collection: publications
-category: conference
+category: conferences
 permalink: /publications/2023-Measuring-Sptial-Associations-of-Intercity-Flows-between-Depopulation-Regions-Considering-Nearest-Neighborhoods
 excerpt: ''
 date: Dec 2023
