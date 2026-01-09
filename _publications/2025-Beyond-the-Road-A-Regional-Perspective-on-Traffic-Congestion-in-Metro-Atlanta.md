@@ -12,4 +12,34 @@ citation: ' Seong, J. C., <b>Lee, S.</b>, Cho, Y., & Hwang, C. S. (2025). Beyond
 ---
 <b> Abstract </b>: Traffic congestion not only affects traffic flow but also influences public perception of congested regions. While analyzing congestion at the road section level can help identify engineering solutions, it often fails to reveal broader spatial patterns and trends at the regional or macro scale unless summarized effectively. This study aims to address these challenges by focusing on regional-scale traffic congestion amounts measured by distanceTime metrics. A 12–month dataset, sampled every 10 min, was analyzed to identify spatial patterns, temporal trends, regional variations, and predictive models in the Metro Atlanta area. The results show that congestion is the most severe and increasing at key urban corridors like Brookhaven–Sandy Springs, the downtown connector, Druid Hills–Decatur, and Johns Creek–Cumming, aligning with recent urban developments. Cities such as Alpharetta, Dunwoody, Brookhaven, Austell, Stone Mountain, East Point, Lake City, Morrow, Fairburn, and Jonesboro show high increasing trends in congestion. Predictive modeling with the long short-term memory (LSTM) method shows promising results for short-term forecasts, though variability in data requires further optimization for certain cities. This research is significant because it demonstrates that congestion amounts measured by distanceTime metrics can be used for assessing regional characteristics broadly at a metropolitan city scale. The findings and methodologies identified in this research might support urban and transportation planning efforts in metropolitan planning organizations, such as the Atlanta Regional Commission, by identifying congestion amounts and trends at both the regional and road scales.
 
+<div style="width: 100%;">
+  <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+    <div style="width: 49%; text-align: center;">
+      <img src="/images/ijgi2025_1.png" style="width: 100%;" alt="1">
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 1</b>. Annual congestion amount in each pixel</p>
+    </div>
+    <div style="width: 49%; text-align: center;">
+      <img src="/images/ijgi2025_2.png" style="width: 100%;" alt="2">
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 2</b>. Mann-Kendall test resutls in individual pixels</p>
+    </div>
+  </div>
 
+  <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+    <div style="width: 49%; text-align: center;">
+      <img src="/images/ijgi2025_3.png" style="width: 100%;" alt="3">
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 3</b>. Traffic congestion amounts in the Metro Atlanta cities measured by annual average daily congestion (AADC)</p>
+    </div>
+    <div style="width: 49%; text-align: center;">
+      <img src="/images/ijgi2025_4.png" style="width: 100%;" alt="4">
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 4</b>. Normalized congestion amounts.</p>
+    </div>
+  </div>
+
+  <div style="width: 100%; text-align: center;">
+    <img src="/images/ijgi2025_5.png" style="width: 60%;" alt="5"> <p style="font-size: 0.8rem; color: #666;"><b>Figure 5</b>. Mann-Kendall test results in individual cities</p>
+  </div>
+
+  <p align="center" style="font-size: 0.85rem; color: #666; margin-top: 20px;">
+    <i><b>Figure X.</b> Overall title of the figures from (a) to (e).</i>
+  </p>
+</div>
