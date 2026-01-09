@@ -16,18 +16,18 @@ citation: ' Seong, J. C., <b>Lee, S.</b>, Cho, Y., & Hwang, C. S. (2025). Beyond
   <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
     <div style="width: 49%; text-align: center;">
       <img src="/images/ijgi2025_1.png" style="width: 100%;" alt="1">
-      <p style="font-size: 0.8rem; color: #666;"><b>Figure 1</b>. Annual congestion amount in each pixel</p>
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 1</b>. Annual congestion amount</p>
     </div>
     <div style="width: 49%; text-align: center;">
       <img src="/images/ijgi2025_2.png" style="width: 100%;" alt="2">
-      <p style="font-size: 0.8rem; color: #666;"><b>Figure 2</b>. Mann-Kendall test resutls in individual pixels</p>
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 2</b>. Mann-Kendall test results</p>
     </div>
   </div>
 
   <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
     <div style="width: 49%; text-align: center;">
       <img src="/images/ijgi2025_3.png" style="width: 100%;" alt="3">
-      <p style="font-size: 0.8rem; color: #666;"><b>Figure 3</b>. Traffic congestion amounts in the Metro Atlanta cities measured by annual average daily congestion (AADC)</p>
+      <p style="font-size: 0.8rem; color: #666;"><b>Figure 3</b>. Annual average daily congestion (AADC) Amounts</p>
     </div>
     <div style="width: 49%; text-align: center;">
       <img src="/images/ijgi2025_4.png" style="width: 100%;" alt="4">
@@ -36,6 +36,6 @@ citation: ' Seong, J. C., <b>Lee, S.</b>, Cho, Y., & Hwang, C. S. (2025). Beyond
   </div>
 
   <div style="width: 100%; text-align: center;">
-    <img src="/images/ijgi2025_5.png" style="width: 100%;" alt="5"> <p style="font-size: 0.8rem; color: #666;"><b>Figure 5</b>. Mann-Kendall test results in individual cities</p>
+    <img src="/images/ijgi2025_5.png" style="width: 100%;" alt="5"> <p style="font-size: 0.8rem; color: #666;"><b>Figure 5</b>. Mann-Kendall test results</p>
   </div>
 </div>
