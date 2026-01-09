@@ -20,7 +20,7 @@ The future distribution of this package is expected to enhance the convenience o
     <td style="padding: 20px 0; border-bottom: 1px solid #eee;">
       <img src="/images/KGSC2022_2.png" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 1">
       <p align="center" style="font-size: 0.85rem; color: #666;">
-        <b>Figure 1.</b> Analysis of living SOC status in Dongdaemun-gu.
+        <b>Figure 1.</b> Paper presentation abstract
       </p>
     </td>
   </tr>
