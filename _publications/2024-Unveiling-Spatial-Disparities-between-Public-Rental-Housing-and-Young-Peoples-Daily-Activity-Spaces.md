@@ -15,7 +15,7 @@ citation: '<b>Lee, S.</b>, Hwang, T., Do Lee, W., & Hwang, C. S. (2024). 청년�
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="padding: 20px 0; border-bottom: 1px solid #eee;">
-      <img src="/images/KGS2023_4.jpg" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 1">
+      <img src="/images/KGS2024_4.jpg" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 1">
       <p align="center" style="font-size: 0.85rem; color: #666;">
         <b>Figure 1.</b> Regional Equity Measurement Following Youth Population Migration <br> ((a) Residential Mobility, (b) Short-term Mobility, (c) Consumption-related Mobility)
       </p>
@@ -24,7 +24,7 @@ citation: '<b>Lee, S.</b>, Hwang, T., Do Lee, W., & Hwang, C. S. (2024). 청년�
 
   <tr>
     <td style="padding: 20px 0; border-bottom: 1px solid #eee;">
-      <img src="/images/KGS2023_5.jpg" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 2">
+      <img src="/images/KGS2024_5.jpg" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 2">
       <p align="center" style="font-size: 0.85rem; color: #666;">
         <b>Figure 2.</b> Typological Classification of Youth Daily Activity Patterns
       </p>
