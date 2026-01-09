@@ -6,7 +6,7 @@ category: conferences
 permalink: /publications/2023-Current-status-of-population-change-by-depopulated-areas-and-countermeasures
 excerpt: ''
 date: Jun 2023
-venue: 'Proceedings of the Korean Society of Transportation Conference'
+venue: 'Proceedings of the Korean Geographical Society Conference'
 paperurl: ''
 citation: "Yoo, S., <b>Lee, S.</b>, & Lee, W. (2023, June). 인구감소지역별 인구변화 실태와 대응방안 (Current status of population change by depopulated areas and countermeasures) [Paper presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 31."
 ---
