@@ -1,14 +1,14 @@
 ---
-title: "Development of an open–source package for measuring transport accessibility using standard node–links"
+title: "Development of an open-source package for measuring transport accessibility using standard node-links"
 title_size: small
 collection: publications
 category: conferences
 permalink: /publications/2022-Development-of-an-open-source-package-for-measuring-transport-accessibility-using-standard-node-links
 excerpt: ''
-date: Sep 2022
+date: 2022-09-01
 venue: 'Proceedings of the Korean Society of Transportation Conference'
 paperurl: ''
-citation: 'Ji, S., <b>Lee, S.</b>, Hwang, T., & Lee, W. (2022, September). 표준노드링크를 활용한 교통접근성 측정 오픈소스 패키지 개발 (Development of an open–source package for measuring transport accessibility using standard node–links) [Poster presentation]. <i>Proceedings of the Korean Society of Transportation Conference</i> Republic of Korea, 275.'
+citation: "Ji, S., <b>Lee, S.</b>, Hwang, T., & Lee, W. (2022, September). 표준노드링크를 활용한 교통접근성 측정 오픈소스 패키지 개발 (Development of an open-source package for measuring transport accessibility using standard node-links) [Paper presentation]. <i>Proceedings of the Korean Society of Transportation Conference</i> Republic of Korea, 275."
 ---
 
 <b>Abstract</b>: In this study, an open-source Python-based package was developed to enable the measurement of accessibility for various modes of transport, utilizing the National Standard Node-Link data provided as public open data. The primary objective of this research was to reduce the dependency of accessibility evaluations—such as route selection and reaching major Living SOC destinations—on commercial software or online map platform services, ensuring that anyone can use these tools without specific costs or restrictions.
@@ -24,4 +24,4 @@ The future distribution of this package is expected to enhance the convenience o
       </p>
     </td>
   </tr>
-</table>>
+</table>
