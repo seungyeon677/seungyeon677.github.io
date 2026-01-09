@@ -7,7 +7,7 @@ permalink: /publications/2022_Analysis-of-fire-vulnerable-areas-in-Dongdaemun-gu
 excerpt: ''
 date: Jun 2022
 venue: 'Proceedings of the Korean Geographical Society Conference'
-paperurl: ''
+paperurl: 
 citation: '<b>Lee, S.</b> (2022, June). 동대문구 화재취약 지역분석: 동대문구 화재취약 지역선정을 위한 서비스 권역 분석 (Analysis of fire–vulnerable areas in Dongdaemun–gu: Service area analysis for selecting fire–vulnerable areas in Dongdaemun–gu) [Poster presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 263.'
 ---
 
