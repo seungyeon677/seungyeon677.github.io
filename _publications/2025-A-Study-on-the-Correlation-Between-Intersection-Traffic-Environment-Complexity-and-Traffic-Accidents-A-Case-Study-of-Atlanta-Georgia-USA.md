@@ -27,7 +27,7 @@ citation: ' Cho, Y., Seong, J. C., <b>Lee, S.</b>, & Hwang, C. S. (2025). 교차
     <td style="padding: 20px 0; border-bottom: 1px solid #eee;">
       <img src="/images/KGS2025_2.png" style="width: 100%; display: block; margin-bottom: 10px;" alt="Fig 2">
       <p align="center" style="font-size: 0.85rem; color: #666;">
-        <b>Figure 2.</b> Spearman correlation coefficients between complexity variables and traffic accidents
+        <b>Figure 2.</b> Spearman correlation coefficients between <br> complexity variables and traffic accidents
       </p>
     </td>
   </tr>
