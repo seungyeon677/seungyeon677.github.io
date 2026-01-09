@@ -7,7 +7,7 @@ permalink: /publications/2023-Exploring-spatial-patterns-of-bus-and-shared-bike-
 excerpt: ''
 date: Jun 2023
 venue: 'Proceedings of the Korean Geographical Society Conference'
-paperurl: ''
+paperurl: 
 citation: "Hwang, T., Kim, K., Lee, Y., Cho, S., <b>Lee, S.</b>, Hong, H., & Hwang, C. S. (2023, June). BiFlowLISA를 이용한 버스와 공유자전거 OD의 공간적 패턴 탐색 (Exploring spatial patterns of bus and shared bike OD using BiFlowLISA) [Paper presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 154-155."
 ---
 
