@@ -3,6 +3,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 <style>
+  /* 사용자가 핸드폰에서 다크모드를 켜도 사이트는 무조건 라이트모드 유지 */
+  :root, html, body {
+    background-color: white !important;
+    color: #1c1c1c !important;
+  }
+
+  /* 다크모드일 때 색상을 반전시키려는 브라우저의 시도를 강제로 차단 */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: white !important;
+      color: #1c1c1c !important;
+    }
+    .page__title, .page__content, .sidebar, .masthead, .footer {
+      background-color: white !important;
+      color: #1c1c1c !important;
+    }
+    /* 링크는 경희대 블루로 고정 */
+    a {
+      color: #003494 !important;
+    }
+    /* 인용구(citation) 영역 텍스트 색상 */
+    .page__content p {
+      color: #1c1c1c !important;
+    }
+  }
+  
   /* 전체 텍스트 및 제목 */
   body, h1, h2, h3, h4, h5, h6, 
   .site-title, .nav__items, .archive__item-title {
