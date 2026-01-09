@@ -7,7 +7,7 @@ permalink: /publications/2022-Development-of-an-open-source-package-for-measurin
 excerpt: ''
 date: 2022-09-01
 venue: 'Proceedings of the Korean Society of Transportation Conference'
-paperurl: ''
+paperurl: 
 citation: "Ji, S., <b>Lee, S.</b>, Hwang, T., & Lee, W. (2022, September). 표준노드링크를 활용한 교통접근성 측정 오픈소스 패키지 개발 (Development of an open-source package for measuring transport accessibility using standard node-links) [Paper presentation]. <i>Proceedings of the Korean Society of Transportation Conference</i> Republic of Korea, 275."
 ---
 
