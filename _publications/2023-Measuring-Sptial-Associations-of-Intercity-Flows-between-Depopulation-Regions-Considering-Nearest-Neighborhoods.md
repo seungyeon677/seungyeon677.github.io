@@ -4,8 +4,8 @@ title_size: small
 collection: publications
 category: manuscripts
 permalink: /publications/2023-Measuring-Sptial-Associations-of-Intercity-Flows-between-Depopulation-Regions-Considering-Nearest-Neighborhoods
-excerpt: ''
-date: Dec 31 2023
+excerpt:
+date: Dec 2023
 venue: 'Journal of the Korean Geographical Society'
 paperurl: 'https://journal.kgeography.or.kr/media/sites/geo/2023-058-06/N013580606/N013580606.pdf'
 citation: 'Lee, S., Hwang, T., Do Lee, W., & Hwang, C. S. (2023). 최근린 권역을 고려한 인구감소지역 간 흐름의 공간적 연관성 탐색에 관한 연구 (Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods). <i>Journal of the Korean Geographical Society, 58</i> (6), 644–656.
