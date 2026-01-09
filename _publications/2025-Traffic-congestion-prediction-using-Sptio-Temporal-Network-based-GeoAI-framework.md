@@ -5,7 +5,7 @@ collection: publications
 category: conferences
 permalink: /publications/2025-Traffic-congestion-prediction-using-Sptio-Temporal-Network-based-GeoAI-framework
 excerpt: ''
-date: Jun 2023
+date: Jun 2025
 venue: 'Proceedings of the Korean Geographical Society Conference'
 citation: "<b>Lee, S.</b>, Hwang, C. S., & Seong, J. C. (2025, June). 시공간 네트워크 기반 GeoAI 프레임워크를 활용한 교통혼잡 예측: 애틀랜타 사례 분석 (Traffic congestion prediction using Spatio–Temporal Network–based GeoAI framework: A case study of Atlanta) [Paper presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 177."
 ---
