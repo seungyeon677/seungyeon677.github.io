@@ -7,7 +7,6 @@ permalink: /publications/2021-Creating-a-10-minute-Sulse-gwon-in-our-neighborhoo
 excerpt: ''
 date: 2021-06-01
 venue: 'Proceedings of the Korean Geographical Society Conference'
-paperurl: 
 citation: 'Kim, S., Min, Y., Park, S., <b>Lee, S.</b>, & Jeong, S. (2021, June). 우리동네 10분 &quot;슬세권&quot; 만들기-동대문구 (회기·이문) 생활 SOC 현황 및 주민 인식 분석 (Creating a 10–minute &quot;Sulse–gwon&quot; in our neighborhood: Analysis of living SOC status and resident perception in Dongdaemun–gu) [Poster presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 172.'
 ---
 
