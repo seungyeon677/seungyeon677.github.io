@@ -85,7 +85,7 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Peer-Reviewed Journal Articles' # 'Journal Articles'보다 더 전문적이고 신뢰감을 줍니다.
+    title: 'Journal Articles' # 'Journal Articles'보다 더 전문적이고 신뢰감을 줍니다.
   conferences:
     title: 'Conference Presentations' # 'Papers'보다 구두 발표나 포스터 발표를 모두 아우르는 넓은 표현입니다.
   books:
