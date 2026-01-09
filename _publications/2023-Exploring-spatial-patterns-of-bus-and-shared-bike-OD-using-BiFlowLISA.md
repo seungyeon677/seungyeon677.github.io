@@ -8,7 +8,7 @@ excerpt: ''
 date: Jun 2023
 venue: 'Proceedings of the Korean Geographical Society Conference'
 paperurl: ''
-citation: " Hwang, T., Kim, K., Lee, Y., Cho, S., <b>Lee, S.</b>, Hong, H., & Hwang, C. S. (2023, June). BiFlowLISA를 이용한 버스와 공유자전거 OD의 공간적 패턴 탐색 (Exploring spatial patterns of bus and shared bike OD using BiFlowLISA) [Paper presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 154-155."
+citation: "Hwang, T., Kim, K., Lee, Y., Cho, S., <b>Lee, S.</b>, Hong, H., & Hwang, C. S. (2023, June). BiFlowLISA를 이용한 버스와 공유자전거 OD의 공간적 패턴 탐색 (Exploring spatial patterns of bus and shared bike OD using BiFlowLISA) [Paper presentation]. <i>Proceedings of the Korean Geographical Society Conference</i> Republic of Korea, 154-155."
 ---
 
 <b>Abstract</b>: As cities develop and expand, the demand for automobiles and the frequency of travel have increased, leading to various social issues such as traffic congestion and rising air pollution that degrade the quality of life for urban residents. To address these problems, there is an ongoing transition from a car-oriented transportation system to a human-centered green transportation system. Public transit and shared bicycles are representative modes of human-centered transportation, and recently, there has been growing interest in the movement of people using these alternatives to automobiles within cities (Haraguchi et al., 2022).
