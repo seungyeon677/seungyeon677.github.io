@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 25px;">
-  <div style="flex: 0 0 300px; margin-right: 20px; display: flex; justify-content: center;">
+  <div style="flex: 0 0 100px; margin-right: 20px; display: flex; justify-content: center;">
     <img src="{{ base_path }}/images/uwg_logo.svg" alt="UWG Logo" style="width: 100%; max-width: 100px; height: auto;">
   </div>
   <div style="flex: 1;">
@@ -25,7 +25,7 @@ author_profile: true
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 25px;">
-  <div style="flex: 0 0 300px; margin-right: 20px; display: flex; justify-content: center;">
+  <div style="flex: 0 0 100px; margin-right: 20px; display: flex; justify-content: center;">
     <img src="{{ base_path }}/images/uwg_logo.svg" alt="UWG Logo" style="width: 100%; max-width: 100px; height: auto;">
   </div>
   <div style="flex: 1;">
@@ -42,8 +42,8 @@ author_profile: true
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 25px;">
-  <div style="flex: 0 0 300px; margin-right: 20px; display: flex; justify-content: center;">
-    <img src="{{ base_path }}/images/krila_logo.png" alt="KHU Logo" style="width: 100%; max-width: 100px; height: auto;">
+  <div style="flex: 0 0 100px; margin-right: 20px; display: flex; justify-content: center;">
+    <img src="{{ base_path }}/images/krila_logo.jpg" alt="KHU Logo" style="width: 100%; max-width: 100px; height: auto;">
   </div>
   <div style="flex: 1;">
     <h2 style="margin: 0; color: #253A73;">Research Assistant</h2>
@@ -58,7 +58,7 @@ author_profile: true
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 25px;">
-  <div style="flex: 0 0 300px; margin-right: 20px; display: flex; justify-content: center;">
+  <div style="flex: 0 0 100px; margin-right: 20px; display: flex; justify-content: center;">
     <img src="{{ base_path }}/images/siipa_logo.png" alt="KHU Logo" style="width: 100%; max-width: 100px; height: auto;">
   </div>
   <div style="flex: 1;">
