@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="margin-top: 20px;">
-  <iframe src="{{ base_path }}/assets/pdf/CV_Lee_Seungyeon.pdf" width="100%" height="1000px" style="border: none;">
+  <iframe src="{{ base_path }}/assets/pdf/CV_Lee_Seungyeon.pdf" width="100%" height="800px" style="border: none;">
     This browser does not support PDF monitoring. Please download the PDF to view it.
   </iframe>
 </div>
