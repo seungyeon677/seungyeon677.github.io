@@ -21,9 +21,9 @@ author_profile: true
         <strong>Advisor:</strong> Dr. Chul Sue Hwang
         <a href="https://gis.khu.ac.kr/" target="_blank" 
           onmouseover="this.style.textDecoration='underline'; this.style.color='#007bff';" 
-          onmouseout="this.style.textDecoration='none'; this.style.color='#666';"
+          onmouseout="this.style.textDecoration='none'; this.style.color='#555';"
           style="text-decoration: none; font-size: 0.8rem; color: #555; margin-left: 5px;">
-          [🔗Link]
+          [*🔗Link*]
     </a>
       </li>
       <li><strong>Thesis:</strong> Spatiotemporal Network–Based Traffic Congestion Prediction Using Grid Data – Case Study of Atlanta, Georgia, USA</li>
