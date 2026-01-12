@@ -2,11 +2,11 @@
 title: "Dynamic Coverage Analysis of Fire and Medical Services Based on Traffic Congestion and Time-Series Hot spot Trends"
 title_size: small
 collection: publications
-category: working_papers
+category: working-papers
 permalink: /publications/2026-Dynamic-Coverage-Analysis-of-Fire-and-Medical-Services-Based-on-Traffic-Congestion-and-Time-Series-Hot-spot-Trends
 excerpt: ''
 date: ''
-venue: ''
+venue: 'Working Paper'
 paperurl: ''
 citation: '<b>Lee, S.</b> & Hwang, C. S. (2026). Dynamic Coverage Analysis of Fire and Medical Services Based on Traffic Congestion and Time-Series Hot spot Trends.'
 ---
