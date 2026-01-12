@@ -19,7 +19,10 @@ author_profile: true
     <ul style="margin-top: 10px; font-size: 0.8rem;">
       <li>
         <strong>Advisor:</strong> Dr. Chul Sue Hwang
-        <a href="https://gis.khu.ac.kr/" target="_blank" style="text-decoration: none; font-size: 0.85rem; color: #666; margin-left: 5px;">
+        <a href="https://gis.khu.ac.kr/" target="_blank" 
+          onmouseover="this.style.textDecoration='underline'; this.style.color='#007bff';" 
+          onmouseout="this.style.textDecoration='none'; this.style.color='#666';"
+          style="text-decoration: none; font-size: 0.85rem; color: #666; margin-left: 5px;">
           🔗Link
     </a>
       </li>
