@@ -18,9 +18,9 @@ author_profile: true
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Mar 2023 – Feb 2025 | Seoul, South Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
       <li>
-        <strong>Advisor:</strong> Dr. Chul Sue Hwang
+        <strong>Advisor:</strong> Dr. Chul Sue Hwang 🔗
         <a href="https://gis.khu.ac.kr/" target="_blank" style="text-decoration: none; font-size: 0.85rem; color: #666; margin-left: 5px;">
-      🔗Link
+      Link
     </a>
       </li>
       <li><strong>Thesis:</strong> Spatiotemporal Network–Based Traffic Congestion Prediction Using Grid Data – Case Study of Atlanta, Georgia, USA</li>
