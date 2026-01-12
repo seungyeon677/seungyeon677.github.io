@@ -36,7 +36,7 @@ author_profile: true
       <li> UWG Geospatial Workshop for Kyung Hee University undergraduate students</li>
       <li> Managed a group of international students and served as a teaching assistant</li>
       <li> Provided hands-on assistance with ArcGIS Pro and geospatial data analysis</li>
-      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Jeang Chang Seong</li>
+      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Jeong Chang Seong</li>
     </ul>
   </div>
 </div>
