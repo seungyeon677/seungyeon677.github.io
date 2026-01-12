@@ -7,14 +7,4 @@ author_profile: true
 
 {% include base_path %}
 
-<div style="margin-top: 20px;">
-  <iframe src="{{ base_path }}/assets/pdf/CV_Lee_Seungyeon.pdf" width="100%" height="900px" style="border: none;">
-    This browser does not support PDF monitoring. Please download the PDF to view it.
-  </iframe>
-</div>
-
-<p align="right" style="margin-top: 10px;">
-  <a href="{{ base_path }}/assets/pdf/CV_Lee_Seungyeon.pdf" class="btn btn--info" target="_blank">
-    <i class="fas fa-fw fa-download" aria-hidden="true"></i> Download CV (PDF)
-  </a>
-</p>
+<iframe src="https://docs.google.com/document/d/1H5MS-g_JASMHbmcN66r7OjU1k2-yv6rY_OxcpZZBEhg/edit?usp=sharing" width="100%" height="800px" frameborder="0"></iframe>
