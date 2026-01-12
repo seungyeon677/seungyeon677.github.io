@@ -7,7 +7,7 @@ permalink: /publications/2026-Dynamic-Coverage-Analysis-of-Fire-and-Medical-Serv
 excerpt: ''
 date: 2026-01-12
 venue: 'In Preparation'
-paperurl: ''
+paperurl:
 citation: "<b>Lee, S.</b> & Hwang, C. S. (2026). Dynamic Coverage Analysis of Fire and Medical Services Based on Traffic Congestion and Time-Series Hot spot Trends. <i>In Preparation</i>."
 ---
 
