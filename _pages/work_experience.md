@@ -9,7 +9,7 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
   <div style="flex: 0 0 100px; margin-right: 20px;">
-    <img src="{{ base_path }}/assets/images/uwg_logo.png" alt="UWG Logo" style="width: 100%; height: auto;">
+    <img src="{{ base_path }}/images/uwg_logo.svg" alt="UWG Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin: 0;">University of West Georgia</h3>
@@ -25,7 +25,7 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
   <div style="flex: 0 0 100px; margin-right: 20px;">
-    <img src="{{ base_path }}/assets/images/khu_logo.png" alt="KHU Logo" style="width: 100%; height: auto;">
+    <img src="{{ base_path }}/images/khu_logo.png" alt="KHU Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin: 0;">Kyung Hee University</h3>
@@ -40,7 +40,7 @@ author_profile: true
 
 <div style="display: flex; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
   <div style="flex: 0 0 100px; margin-right: 20px;">
-    <img src="{{ base_path }}/assets/images/khu_logo.png" alt="KHU Logo" style="width: 100%; height: auto;">
+    <img src="{{ base_path }}/images/khu_logo.png" alt="KHU Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
     <h3 style="margin: 0;">Kyung Hee University</h3>
