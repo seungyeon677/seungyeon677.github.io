@@ -19,7 +19,7 @@ author_profile: true
       <li> Global ICT Professional Training Program (Funded by IITP, Republic of Korea)</li>
       <li> Focused on detecting urban traffic risk areas using spatial big data and GeoAI frameworks</li>
       <li> Published a co-author research paper in the <i>ISPRS International Journal of Geo-Information (IJGI)</i></li>
-      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Jeang Chang Seong</li>
+      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Jeong Chang Seong</li>
     </ul>
   </div>
 </div>
