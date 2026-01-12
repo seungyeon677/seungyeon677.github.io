@@ -17,9 +17,9 @@ author_profile: true
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jun 2024 – Aug 2025 | Carrollton, GA, USA</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
       <li><strong>Project:</strong> Global ICT Professional Training Program (Funded by IITP, Republic of Korea)</li>
-      <li><strong>Research:</strong> Focused on detecting urban traffic risk areas using spatial big data and GeoAI frameworks</li>
-      <li><strong>Outcome:</strong> Published a co-author research paper in the <i>ISPRS International Journal of Geo-Information (IJGI)</i></li>
-      <li><strong>Supervisors:</strong> Dr. Chul Sue Hwang and Dr. Jeang Chang Seong</li>
+      <li>Focused on detecting urban traffic risk areas using spatial big data and GeoAI frameworks</li>
+      <li>Published a co-author research paper in the <i>ISPRS International Journal of Geo-Information (IJGI)</i></li>
+      <li>Supervisors: Dr. Chul Sue Hwang and Dr. Jeang Chang Seong</li>
     </ul>
   </div>
 </div>
@@ -33,10 +33,10 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & University of West Georgia</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2024 | Carrollton, GA, USA</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
-      <li><strong>Workshop:</strong> UWG Geospatial Workshop for Kyung Hee University undergraduate students</li>
-      <li><strong>Responsibility:</strong> Managed a group of international students and served as a teaching assistant</li>
-      <li><strong>Technical Support:</strong> Provided hands-on assistance with ArcGIS Pro and geospatial data analysis</li>
-      <li><strong>Supervisors:</strong> Dr. Chul Sue Hwang and Dr. Jeang Chang Seong</li>
+      <li> UWG Geospatial Workshop for Kyung Hee University undergraduate students</li>
+      <li> Managed a group of international students and served as a teaching assistant</li>
+      <li> Provided hands-on assistance with ArcGIS Pro and geospatial data analysis</li>
+      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Jeang Chang Seong</li>
     </ul>
   </div>
 </div>
@@ -50,9 +50,9 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Korea Research Institute for Local Administration</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jun 2022 – Sep 2022 | Seoul, South Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
-      <li><strong>Project:</strong> Development of Support Strategies for Depopulated Regions in Republic of Korea (Funded by KRILA)</li>
-      <li><strong>Role:</strong> Analyzed nationwide population decline indicators using road network analysis and large-scale demographic datasets</li>
-      <li><strong>Supervisors:</strong> Dr. Chul Sue Hwang and Dr. Won Do Lee</li>
+      <li> Development of Support Strategies for Depopulated Regions in Republic of Korea (Funded by KRILA)</li>
+      <li> Analyzed nationwide population decline indicators using road network analysis and large-scale demographic datasets</li>
+      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Won Do Lee</li>
     </ul>
   </div>
 </div>
@@ -66,9 +66,9 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Spatial Information Industry Promotion Agency</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2022 – Feb 2025 | Seoul, South Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
-      <li><strong>Project:</strong> Geospatial Information Innovation Cultivation Program (Funded by Spatial Information Industry Promotion Agency)</li>
-      <li><strong>Responsibility:</strong> Coordinated academic activities for undergraduate students and provided mentoring in GIS applications</li>
-      <li><strong>Supervisor:</strong> Dr. Chul Sue Hwang</li>
+      <li> Geospatial Information Innovation Cultivation Program (Funded by Spatial Information Industry Promotion Agency)</li>
+      <li> Coordinated academic activities for undergraduate students and provided mentoring in GIS applications</li>
+      <li> Supervisor: Dr. Chul Sue Hwang</li>
     </ul>
   </div>
 </div>
