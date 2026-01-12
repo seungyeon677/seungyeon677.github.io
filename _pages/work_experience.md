@@ -48,7 +48,7 @@ author_profile: true
   <div style="flex: 1;">
     <h2 style="margin: 0; color: #253A73;">Research Assistant</h2>
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Korea Research Institute for Local Administration</strong></p>
-    <p style="margin: 0; font-size: 0.9rem; color: #888;">Jun 2022 – Sep 2022 | Seoul, South Korea</p>
+    <p style="margin: 0; font-size: 0.9rem; color: #888;">Jun 2022 – Sep 2022 | Seoul, Republic of Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
       <li> Development of Support Strategies for Depopulated Regions in Republic of Korea (Funded by KRILA)</li>
       <li> Analyzed nationwide population decline indicators using road network analysis and large-scale demographic datasets</li>
@@ -64,7 +64,7 @@ author_profile: true
   <div style="flex: 1;">
     <h2 style="margin: 0; color: #253A73;">Office Assistant</h2>
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Spatial Information Industry Promotion Agency</strong></p>
-    <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2022 – Feb 2025 | Seoul, South Korea</p>
+    <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2022 – Feb 2025 | Seoul, Republic of Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
       <li> Geospatial Information Innovation Cultivation Program (Funded by Spatial Information Industry Promotion Agency)</li>
       <li> Coordinated academic activities for undergraduate students and provided mentoring in GIS applications</li>
