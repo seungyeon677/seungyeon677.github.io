@@ -23,7 +23,7 @@ author_profile: true
           onmouseover="this.style.textDecoration='underline'; this.style.color='#007bff';" 
           onmouseout="this.style.textDecoration='none'; this.style.color='#555';"
           style="text-decoration: none; font-size: 0.8rem; color: #555; margin-left: 5px;">
-          [*🔗Link*]
+          [🔗<i>Link</i>]
     </a>
       </li>
       <li><strong>Thesis:</strong> Spatiotemporal Network–Based Traffic Congestion Prediction Using Grid Data – Case Study of Atlanta, Georgia, USA</li>
