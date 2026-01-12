@@ -29,7 +29,7 @@ author_profile: true
     <img src="{{ base_path }}/images/uwg_logo.svg" alt="UWG Logo" style="width: 100%; max-width: 100px; height: auto;">
   </div>
   <div style="flex: 1;">
-    <h2 style="margin: 0; color: #253A73;">Teaching Assitant</h2>
+    <h2 style="margin: 0; color: #253A73;">Teaching Assistant</h2>
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & University of West Georgia</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2024 | Carrollton, GA, USA</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
@@ -62,7 +62,7 @@ author_profile: true
     <img src="{{ base_path }}/images/siipa_logo.png" alt="KHU Logo" style="width: 100%; max-width: 100px; height: auto;">
   </div>
   <div style="flex: 1;">
-    <h2 style="margin: 0; color: #253A73;">Office Assitant</h2>
+    <h2 style="margin: 0; color: #253A73;">Office Assistant</h2>
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Spatial Information Industry Promotion Agency</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2022 – Feb 2025 | Seoul, South Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
