@@ -40,7 +40,7 @@ author_profile: true
 <div class="news-container">
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/grad.jpg" alt="Graduation"></div>
+    <div class="news-image-area"><img src="{{ base_path }}/images/graduation_1.jpg" alt="Graduation"></div>
     <div class="news-content">
       <p class="news-date">Aug 20, 2025</p>
       <h2 class="news-title">Successfully Completed M.S. in Geography</h2>
@@ -53,8 +53,8 @@ author_profile: true
   <div class="news-item">
     <div class="swiper newsSwiper news-image-area">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="{{ base_path }}/assets/images/uwg1.jpg"></div>
-        <div class="swiper-slide"><img src="{{ base_path }}/assets/images/uwg2.jpg"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/uwg_1.jpg"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/uwg_2.jpg"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
@@ -69,7 +69,7 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/kmi.jpg"></div>
+    <div class="news-image-area"><img src="{{ base_path }}/images/kmi_1.jpg"></div>
     <div class="news-content">
       <p class="news-date">May 31, 2024</p>
       <h2 class="news-title">Agent-Based Marine Space Simulation Workshop</h2>
@@ -80,7 +80,7 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/aag.jpg"></div>
+    <div class="news-image-area"><img src="{{ base_path }}/images/aag_1.jpg"></div>
     <div class="news-content">
       <p class="news-date">Apr 20, 2024</p>
       <h2 class="news-title">Presented at 2024 AAG Annual Meeting</h2>
@@ -91,7 +91,15 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/lecture.jpg"></div>
+    <div class="swiper newsSwiper news-image-area">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="{{ base_path }}/images/wang_1.jpg"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/wang_2.jpg"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/wang_3.jpg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+    </div>
     <div class="news-content">
       <p class="news-date">Jan 05, 2024</p>
       <h2 class="news-title">Special Lecture by Dr. Shaowen Wang</h2>
@@ -102,7 +110,15 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/krila.jpg"></div>
+    <div class="swiper newsSwiper news-image-area">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="{{ base_path }}/images/krila_1.jpg"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/krila_2.jpg"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/krila_3.jpg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+    </div>
     <div class="news-content">
       <p class="news-date">Dec 28, 2023</p>
       <h2 class="news-title">KRILA Workshop on Depopulated Regions</h2>
@@ -113,7 +129,7 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/kgs.jpg"></div>
+    <div class="news-image-area"><img src="{{ base_path }}/images/kgs_1.jpg"></div>
     <div class="news-content">
       <p class="news-date">Dec 01, 2023</p>
       <h2 class="news-title">Paper Presentation at KGS Conference</h2>
@@ -124,7 +140,7 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/assets/images/cjk.jpg"></div>
+    <div class="news-image-area"><img src="{{ base_path }}/images/cjk_1.jpg"></div>
     <div class="news-content">
       <p class="news-date">Oct 22, 2023</p>
       <h2 class="news-title">Korea–Japan–China (CJK) Regional Conference</h2>
