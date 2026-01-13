@@ -84,7 +84,6 @@ author_profile: true
       <p class="news-description">
         My research on "Spatio-temporal Traffic Prediction" was presented at the IGSC 2024. It was a great opportunity to share insights and connect with other researchers in the field.
       </p>
-      <a href="컨퍼런스_링크_주소" class="btn btn-info" style="font-size: 0.85rem;">Read More &rarr;</a>
     </div>
   </div>
 
@@ -96,7 +95,6 @@ author_profile: true
       <p class="news-description">
         I am thrilled to announce that I have successfully completed my Master's degree at Kyung Hee University. Special thanks to my advisor and lab members for their unwavering support.
       </p>
-      <a href="졸업_논문_링크_주소" class="btn btn-info" style="font-size: 0.85rem;">View Thesis &rarr;</a>
     </div>
   </div>
 
@@ -108,7 +106,6 @@ author_profile: true
       <p class="news-description">
         Attended an intensive workshop on GeoAI frameworks and deep learning for urban analytics at the University of West Georgia, enhancing my practical skills.
       </p>
-      <a href="워크샵_링크_주소" class="btn btn-info" style="font-size: 0.85rem;">Learn More &rarr;</a>
     </div>
   </div>
 
