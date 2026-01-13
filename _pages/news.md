@@ -34,7 +34,7 @@ author_profile: true
   }
 
   .news-date {
-    font-size: 0.85rem !important;
+    font-size: 0.85rem;
     color: #888;
     margin-bottom: 8px;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ author_profile: true
   }
 
   .news-title {
-    font-size: 1.0rem !important;
+    font-size: 1.2rem !important;
     font-weight: 700 !important;
     color: #253A73 !important;
     margin: 0 0 10px 0 !important;
