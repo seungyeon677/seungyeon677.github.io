@@ -28,7 +28,7 @@ layout: default
         <header>
           {% if page.title %}
             <h2 class="page__title" 
-                {% if page.title_size == 'small' %} style="font-size: 1.6rem !important; font-weight: 700 !important; color: #253A73;" {% endif %} 
+                {% if page.title_size == 'small' %} style="font-size: 1.6rem !important; font-weight: 700 !important; color: #253A73 !important;" {% endif %} 
                 itemprop="headline">
               {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
             </h2>
