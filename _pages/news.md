@@ -7,11 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <style>
   .news-container { color: #333; margin-top: 20px; }
   .news-item {
     display: flex;
-    flex-direction: column; /* 이미지/날짜-제목/내용 순서로 배치 */
+    flex-direction: column;
     margin-bottom: 40px;
     padding: 20px;
     border: 1px solid #eee;
@@ -25,13 +28,24 @@ author_profile: true
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   }
 
-  .news-image {
-    width: 100%; /* 이미지를 카드 너비에 꽉 채움 */
-    max-height: 250px; /* 너무 길어지지 않게 최대 높이 제한 */
-    object-fit: cover; /* 이미지가 잘리지 않고 채워지도록 */
+  /* 슬라이더 영역 및 일반 이미지 공통 스타일 */
+  .news-image-area {
+    width: 100%;
+    height: 250px; /* 슬라이더와 이미지 높이 통일 */
     border-radius: 8px;
     margin-bottom: 20px;
+    overflow: hidden;
   }
+  
+  .news-image-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Swiper 커스텀 스타일 */
+  .swiper-button-next, .swiper-button-prev { color: #253A73 !important; transform: scale(0.6); }
+  .swiper-pagination-bullet-active { background: #253A73 !important; }
 
   .news-date {
     font-size: 0.85rem;
@@ -56,15 +70,14 @@ author_profile: true
     margin-bottom: 10px;
   }
   
-  /* 반응형 조정 */
   @media (min-width: 768px) {
     .news-item {
-      flex-direction: row; /* 넓은 화면에서는 이미지-내용 가로 배치 */
+      flex-direction: row;
       align-items: flex-start;
     }
-    .news-image {
-      width: 35%; /* 넓은 화면에서는 이미지 너비 제한 */
-      max-height: none; /* 높이 제한 해제 */
+    .news-image-area {
+      width: 35%;
+      height: 220px; /* PC에서는 약간 낮게 조절 가능 */
       margin-right: 30px;
       margin-bottom: 0;
     }
@@ -77,18 +90,29 @@ author_profile: true
 <div class="news-container">
 
   <div class="news-item">
-    <img src="{{ base_path }}/assets/images/conference_pic.jpg" alt="Conference Presentation" class="news-image">
+    <div class="swiper newsSwiper news-image-area">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="{{ base_path }}/images/conference_pic.jpg" alt="Slide 1"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/conference_pic2.jpg" alt="Slide 2"></div>
+        <div class="swiper-slide"><img src="{{ base_path }}/images/conference_pic3.jpg" alt="Slide 3"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
     <div class="news-content">
       <p class="news-date">Dec 15, 2024</p>
       <h2 class="news-title">Presented at the International GIS Conference</h2>
       <p class="news-description">
-        My research on "Spatio-temporal Traffic Prediction" was presented at the IGSC 2024. It was a great opportunity to share insights and connect with other researchers in the field.
+        My research on "Spatio-temporal Traffic Prediction" was presented at the IGSC 2024. It was a great opportunity to share insights and connect with other researchers in the field. (Swipe to see more photos)
       </p>
     </div>
   </div>
 
   <div class="news-item">
-    <img src="{{ base_path }}/assets/images/graduation_pic.jpg" alt="Graduation" class="news-image">
+    <div class="news-image-area">
+      <img src="{{ base_path }}/images/graduation_pic.jpg" alt="Graduation">
+    </div>
     <div class="news-content">
       <p class="news-date">Feb 20, 2025</p>
       <h2 class="news-title">Successfully Completed M.S. in Geography</h2>
@@ -99,7 +123,9 @@ author_profile: true
   </div>
 
   <div class="news-item">
-    <img src="{{ base_path }}/assets/images/workshop_pic.jpg" alt="Workshop Participation" class="news-image">
+    <div class="news-image-area">
+      <img src="{{ base_path }}/images/workshop_pic.jpg" alt="Workshop Participation">
+    </div>
     <div class="news-content">
       <p class="news-date">Jan 10, 2024</p>
       <h2 class="news-title">Participated in GeoAI Workshop at UWG</h2>
@@ -110,3 +136,17 @@ author_profile: true
   </div>
 
 </div>
+
+<script>
+  var swiper = new Swiper(".newsSwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
