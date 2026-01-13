@@ -33,10 +33,10 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & University of West Georgia</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2024 | Carrollton, GA, USA</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
-      <li> UWG Geospatial Workshop for Kyung Hee University undergraduate students</li>
-      <li> Managed a group of international students and served as a teaching assistant</li>
-      <li> Provided hands-on assistance with ArcGIS Pro and geospatial data analysis</li>
-      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Jeong Chang Seong</li>
+      <li style="margin-bottom: 3px;"> UWG Geospatial Workshop for Kyung Hee University undergraduate students</li>
+      <li style="margin-bottom: 3px;"> Managed a group of international students and served as a teaching assistant</li>
+      <li style="margin-bottom: 3px;"> Provided hands-on assistance with ArcGIS Pro and geospatial data analysis</li>
+      <li style="margin-bottom: 3px;"> Supervisors: Dr. Chul Sue Hwang and Dr. Jeong Chang Seong</li>
     </ul>
   </div>
 </div>
@@ -50,9 +50,9 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Korea Research Institute for Local Administration</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jun 2022 – Sep 2022 | Seoul, Republic of Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
-      <li> Development of Support Strategies for Depopulated Regions in Republic of Korea (Funded by KRILA)</li>
-      <li> Analyzed nationwide population decline indicators using road network analysis and large-scale demographic datasets</li>
-      <li> Supervisors: Dr. Chul Sue Hwang and Dr. Won Do Lee</li>
+      <li style="margin-bottom: 3px;"> Development of Support Strategies for Depopulated Regions in Republic of Korea (Funded by KRILA)</li>
+      <li style="margin-bottom: 3px;"> Analyzed nationwide population decline indicators using road network analysis and large-scale demographic datasets</li>
+      <li style="margin-bottom: 3px;"> Supervisors: Dr. Chul Sue Hwang and Dr. Won Do Lee</li>
     </ul>
   </div>
 </div>
@@ -66,9 +66,9 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University & Spatial Information Industry Promotion Agency</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jul 2022 – Feb 2025 | Seoul, Republic of Korea</p>
     <ul style="margin-top: 10px; font-size: 0.8rem;">
-      <li> Geospatial Information Innovation Cultivation Program (Funded by Spatial Information Industry Promotion Agency)</li>
-      <li> Coordinated academic activities for undergraduate students and provided mentoring in GIS applications</li>
-      <li> Supervisor: Dr. Chul Sue Hwang</li>
+      <li style="margin-bottom: 3px;"> Geospatial Information Innovation Cultivation Program (Funded by Spatial Information Industry Promotion Agency)</li>
+      <li style="margin-bottom: 3px;"> Coordinated academic activities for undergraduate students and provided mentoring in GIS applications</li>
+      <li style="margin-bottom: 3px;"> Supervisor: Dr. Chul Sue Hwang</li>
     </ul>
   </div>
 </div>
