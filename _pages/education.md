@@ -12,7 +12,7 @@ author_profile: true
     <img src="{{ base_path }}/images/khu_logo.png" alt="Kyung Hee University Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
-    <h2 style="margin: 0; color: #253A73;"><strong>M.S. in Geography</strong></h2>
+    <h2 style="margin: 0; color: #253A73;">M.S. in Geography</h2>
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University</strong></p>
     <p style="margin: 5px 0; font-size: 0.9rem; color: #555;">Department of Geography (Specialized in GIS and Cartography)</p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Mar 2023 – Feb 2025 | Seoul, South Korea</p>
@@ -36,7 +36,7 @@ author_profile: true
     <img src="{{ base_path }}/images/khu_logo.png" alt="Kyung Hee University Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
-    <h2 style="margin: 0; color: #253A73;"><strong>B.S. in Geography</strong></h2>
+    <h2 style="margin: 0; color: #253A73;">B.S. in Geography</h2>
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University</strong></p>
     <p style="margin: 5px 0; font-size: 0.9rem; color: #555;">Department of Geography</p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Mar 2019 – Feb 2023 | Seoul, South Korea</p>
