@@ -15,7 +15,7 @@ author_profile: true
     <h2 style="margin: 0; color: #253A73;">Visiting Researcher</h2>
     <p style="margin: 5px 0; color: #555;"><strong>University of West Georgia</strong></p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Jun 2024 – Aug 2025 | Carrollton, GA, USA</p>
-    <ul style="margin-top: 10px; font-size: 0.8rem;">
+    <ul style="margin-top: 10px; font-size: 0.8rem; line-height: 1.6;">
       <li> Global ICT Professional Training Program (Funded by IITP, Republic of Korea)</li>
       <li> Focused on detecting urban traffic risk areas using spatial big data and GeoAI frameworks</li>
       <li> Published a co-author research paper in the <i>ISPRS International Journal of Geo-Information (IJGI)</i></li>
