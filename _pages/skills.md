@@ -31,11 +31,11 @@ author_profile: true
   <h2 class="section-title">Technical Skills</h2>
   
   <div class="tech-grid">
-    <div class="tech-card"><img src="{{base_path}}/images/python_logo.svg"> <span class="name">Python</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/images/arcgis_logo.png"> <span class="name">ArcGIS Pro</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/python_logo.png"> <span class="name">Python</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/arcpro_logo.png"> <span class="name">ArcGIS Pro</span> <span class="level">Advanced</span> </div>
     <div class="tech-card"><img src="{{base_path}}/images/qgis_logo.png"> <span class="name">QGIS</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/images/pix4d_logo.png"> <span class="name">Pix4D Mapper</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/images/r_logo.png"> <span class="name">R</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/pix4d_logo.svg"> <span class="name">Pix4D Mapper</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/R_logo.png"> <span class="name">R</span> <span class="level">Intermediate</span> </div>
     <div class="tech-card"><img src="{{base_path}}/images/pytorch_logo.svg"> <span class="name">PyTorch</span> <span class="level">Intermediate</span> </div>
     <div class="tech-card"><img src="{{base_path}}/images/erdas_logo.png"> <span class="name">ERDAS Imagine</span> <span class="level">Intermediate</span> </div>
     <div class="tech-card"><img src="{{base_path}}/images/anylogic_logo.png"> <span class="name">AnyLogic</span> <span class="level">Intermediate</span> </div>
