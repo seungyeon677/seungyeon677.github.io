@@ -16,7 +16,7 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University</strong></p>
     <p style="margin: 5px 0; font-size: 0.9rem; color: #555;">Department of Geography (Specialized in GIS and Cartography)</p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Mar 2023 – Feb 2025 | Seoul, South Korea</p>
-    <ul style="margin-top: 10px; font-size: 0.8rem;">
+    <ul style="margin-top: 10px; font-size: 0.8rem; letter-spacing: -0.02em;">
       <li>
         <strong>Advisor:</strong> Dr. Chul Sue Hwang
         <a href="https://gis.khu.ac.kr/" target="_blank" 
@@ -40,7 +40,7 @@ author_profile: true
     <p style="margin: 5px 0; color: #555;"><strong>Kyung Hee University</strong></p>
     <p style="margin: 5px 0; font-size: 0.9rem; color: #555;">Department of Geography</p>
     <p style="margin: 0; font-size: 0.9rem; color: #888;">Mar 2019 – Feb 2023 | Seoul, South Korea</p>
-    <ul style="margin-top: 10px; font-size: 0.8rem;">
+    <ul style="margin-top: 10px; font-size: 0.8rem; letter-spacing: -0.02em;">
       <li>Teacher Certificate of Geography (Ministry of Education)</li>
     </ul>
   </div>
