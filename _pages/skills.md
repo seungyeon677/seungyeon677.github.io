@@ -11,7 +11,7 @@ author_profile: true
   /* 전체 컨테이너 설정 */
   .skills-section {
     color: #333;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   /* 기술 그리드 레이아웃 */
