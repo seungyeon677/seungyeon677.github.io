@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+<br>
+
 <div style="display: flex; align-items: flex-start; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 25px;">
   <div style="flex: 0 0 100px; margin-right: 20px; display: flex; justify-content: center;">
     <img src="{{ base_path }}/images/uwg_logo.svg" alt="UWG Logo" style="width: 100%; max-width: 100px; height: auto;">
