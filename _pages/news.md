@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .news-container { font-family: 'Roboto', sans-serif; color: #333; margin-top: 20px; }
+  .news-container { color: #333; margin-top: 20px; }
   .news-item {
     display: flex;
     flex-direction: column; /* 이미지/날짜-제목/내용 순서로 배치 */
@@ -42,17 +42,17 @@ author_profile: true
   }
 
   .news-title {
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     font-weight: 700;
     color: #253A73;
     margin: 0 0 10px 0;
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   .news-description {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.3;
     margin-bottom: 10px;
   }
   
