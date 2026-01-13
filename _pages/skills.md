@@ -8,126 +8,67 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  /* 전체 컨테이너 설정 */
-  .skills-section {
-    color: #333;
-    margin-top: 10px;
-  }
+  .skills-wrapper { font-family: 'Roboto', sans-serif; letter-spacing: -0.01em; color: #333; }
+  .section-title { font-size: 1.5rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; border-bottom: 2px solid #253A73; display: inline-block; }
+  
+  /* Grid for Technical Skills */
+  .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin-bottom: 40px; }
+  .tech-card { display: flex; flex-direction: column; align-items: center; padding: 15px; border: 1px solid #f0f0f0; border-radius: 8px; background: #fff; transition: 0.3s; }
+  .tech-card:hover { border-color: #253A73; transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+  .tech-card img { width: 40px; height: 40px; object-fit: contain; margin-bottom: 10px; }
+  .tech-card .name { font-size: 0.85rem; font-weight: 600; text-align: center; }
+  .tech-card .level { font-size: 0.75rem; color: #888; margin-top: 2px; }
 
-  /* 기술 그리드 레이아웃 */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-    gap: 20px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-  }
-
-  /* 개별 기술 카드 스타일 */
-  .skill-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 10px;
-    border: 1px solid #f0f0f0;
-    border-radius: 8px;
-    background-color: #fff;
-    transition: all 0.3s ease;
-  }
-
-  .skill-card:hover {
-    border-color: #253A73;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    transform: translateY(-3px);
-  }
-
-  /* 로고 이미지 설정 */
-  .skill-card img {
-    width: 45px;
-    height: 45px;
-    object-fit: contain;
-    margin-bottom: 12px;
-    /* 이미지에 미세한 회색 필터를 주어 통일감을 높일 수도 있습니다 */
-  }
-
-  /* 기술 이름 텍스트 */
-  .skill-card span {
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: #444;
-    text-align: center;
-    line-height: 1.2;
-  }
-
-  /* 섹션 구분선 및 제목 */
-  .section-title {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #253A73;
-    margin-bottom: 10px;
-    display: inline-block;
-    padding-bottom: 5px;
-  }
-
-  /* 방법론 텍스트 스타일 */
-  .methodology-list {
-    list-style: none;
-    padding: 0;
-  }
-  .methodology-item {
-    margin-bottom: 15px;
-    padding: 15px;
-    border-left: 4px solid #eee;
-    background: #fcfcfc;
-  }
+  /* Methodology List Style */
+  .method-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .method-box { background: #fcfcfc; padding: 18px; border-radius: 8px; border-left: 4px solid #eee; }
+  .method-box h3 { font-size: 1.1rem; margin: 0 0 10px 0; color: #253A73; }
+  .method-box ul { margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; }
+  .method-box li { margin-bottom: 5px; }
 </style>
 
-<div class="skills-section">
-
+<div class="skills-wrapper">
   <h2 class="section-title">Technical Skills</h2>
   
-  <div class="skills-grid">
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/arcgis_logo.png" alt="ArcGIS">
-      <span>ArcGIS Pro</span>
-    </div>
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/python_logo.svg" alt="Python">
-      <span>Python</span>
-    </div>
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/qgis_logo.png" alt="QGIS">
-      <span>QGIS</span>
-    </div>
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/r_logo.png" alt="R">
-      <span>R</span>
-    </div>
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/postgresql_logo.png" alt="PostgreSQL">
-      <span>PostgreSQL</span>
-    </div>
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/envi_logo.png" alt="ENVI">
-      <span>ENVI</span>
-    </div>
-    <div class="skill-card">
-      <img src="{{ base_path }}/assets/images/gee_logo.png" alt="GEE">
-      <span>Google Earth Engine</span>
-    </div>
+  <div class="tech-grid">
+    <div class="tech-card"><img src="{{base_path}}/assets/images/python_logo.svg"> <span class="name">Python</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/arcgis_logo.png"> <span class="name">ArcGIS Pro</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/qgis_logo.png"> <span class="name">QGIS</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/pix4d_logo.png"> <span class="name">Pix4D Mapper</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/r_logo.png"> <span class="name">R Language</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/pytorch_logo.svg"> <span class="name">PyTorch</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/erdas_logo.png"> <span class="name">ERDAS Imagine</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/assets/images/anylogic_logo.png"> <span class="name">AnyLogic</span> <span class="level">Intermediate</span> </div>
   </div>
 
-  <h2 class="section-title">Methodologies</h2>
-  
-  <div class="methodology-list">
-    <div class="methodology-item">
-      <strong>Spatial Data Analysis:</strong>
-      <p style="margin: 5px 0 0 0; font-size: 0.95rem; color: #666;">Spatiotemporal modeling, network analysis, and hot-spot detection using various spatial statistics.</p>
+  <h2 class="section-title">Research Methodologies</h2>
+  <div class="method-container">
+    <div class="method-box">
+      <h3>Spatial Statistics</h3>
+      <ul>
+        <li>Moran’s I / LISA</li>
+        <li>Getis-Ord Gi*</li>
+        <li>SFlowLISA / BiFlowLISA</li>
+        <li>Space Time Cube / Emerging Hot Spot</li>
+        <li>GWR / MGWR</li>
+        <li>Mann-Kendall Test</li>
+      </ul>
     </div>
-    <div class="methodology-item">
-      <strong>GeoAI & Deep Learning:</strong>
-      <p style="margin: 5px 0 0 0; font-size: 0.95rem; color: #666;">Implementing machine learning frameworks (XGBoost, Random Forest) and deep learning for urban risk prediction.</p>
+    <div class="method-box">
+      <h3>Spatial Analysis</h3>
+      <ul>
+        <li>Road Network Analysis (Dijkstra’s)</li>
+        <li>Service Area Analysis</li>
+        <li>Accessibility (2SFCA / E2SFCA)</li>
+        <li>Agent-based Modeling</li>
+      </ul>
+    </div>
+    <div class="method-box" style="grid-column: span 2; border-left-color: #E84A5F;">
+      <h3>GeoAI & Machine Learning</h3>
+      <ul>
+        <li>GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
+        <li>LSTM / Random Forest / XGBoost</li>
+      </ul>
     </div>
   </div>
-
 </div>
