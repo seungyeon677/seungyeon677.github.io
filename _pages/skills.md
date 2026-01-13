@@ -9,7 +9,7 @@ author_profile: true
 
 <style>
   .skills-wrapper { letter-spacing: -0.01em; color: #333; }
-  .section-title { font-size: 1.5rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; display: inline-block; }
+  .section-title { font-size: 1.6rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; display: inline-block; }
   
   /* Grid for Technical Skills */
   .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin-bottom: 40px; }
@@ -22,7 +22,7 @@ author_profile: true
   /* Methodology List Style */
   .method-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .method-box { background: #fcfcfc; padding: 18px; border-radius: 8px; border-left: 4px solid #eee; }
-  .method-box h3 { font-size: 1.1rem; margin: 0 0 10px 0; color: #253A73; }
+  .method-box h3 { font-size: 1.1rem; margin: 0 0 10px 0; }
   .method-box ul { margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; }
   .method-box li { margin-bottom: 5px; }
 </style>
@@ -46,27 +46,27 @@ author_profile: true
     <div class="method-box">
       <h3>Spatial Statistics</h3>
       <ul>
-        <li>Spatial Autocorrelation (Moran’s I / LISA)</li>
-        <li>Spatial Clustering (Getis-Ord Gi*)</li>
-        <li>Spatial Flow Assosiation (SFlowLISA / BiFlowLISA)</li>
-        <li>Spatio-Temporal Clustering (Space Time Cube / Emerging Hot Spot)</li>
-        <li>Spatial Regression (GWR / MGWR)</li>
+        <li><strong>Spatial Autocorrelation</strong>: Moran’s I, LISA</li>
+        <li><strong>Spatial Clustering</strong>: Getis-Ord Gi*</li>
+        <li><strong>Spatial Flow Assosiation</strong>: SFlowLISA, BiFlowLISA</li>
+        <li><strong>Spatio-Temporal Clustering</strong>: Space Time Cube, Emerging Hot Spot</li>
+        <li><strong>Spatial Regression</strong>: GWR, MGWR</li>
         <li>Mann-Kendall Test</li>
       </ul>
     </div>
     <div class="method-box" style="border-left-color: #253A73;">
       <h3>Spatial Analysis</h3>
       <ul>
-        <li>Road Network Analysis (Dijkstra’s algorithm, Service Area)</li>
-        <li>Accessibility (2SFCA / E2SFCA)</li>
-        <li>Agent-based Modeling</li>
+        <li><strong>Road Network Analysis</strong>: Dijkstra’s algorithm, Service Area</li>
+        <li><strong>Accessibility</strong>: 2SFCA, E2SFCA</li>
+        <li><strong>Agent-based Modeling</strong></li>
       </ul>
     </div>
     <div class="method-box" style="grid-column: span 2; border-left-color: #9D1C20;">
       <h3>AI</h3>
       <ul>
         <li><strong>Deep Learning</strong>: GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
-        <li><strong>Machine Learning</strong>: LSTM / Random Forest / XGBoost</li>
+        <li><strong>Machine Learning</strong>: LSTM, Random Forest, XGBoost</li>
       </ul>
     </div>
   </div>
