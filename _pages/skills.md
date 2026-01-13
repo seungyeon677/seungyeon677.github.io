@@ -10,7 +10,6 @@ author_profile: true
 <style>
   /* 전체 컨테이너 설정 */
   .skills-section {
-    font-family: 'Roboto', sans-serif;
     color: #333;
     margin-top: 30px;
   }
@@ -62,11 +61,10 @@ author_profile: true
 
   /* 섹션 구분선 및 제목 */
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #253A73;
     margin-bottom: 10px;
-    border-bottom: 2px solid #253A73;
     display: inline-block;
     padding-bottom: 5px;
   }
