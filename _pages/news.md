@@ -80,7 +80,7 @@ author_profile: true
     <img src="{{ base_path }}/assets/images/conference_pic.jpg" alt="Conference Presentation" class="news-image">
     <div class="news-content">
       <p class="news-date">Dec 15, 2024</p>
-      <h2 class="news-title">Presented at the International GIS Conference</h2>
+      <h2 style="font-size: 1.0rem; font-weight: 700; color: #253A73; margin: 0 0 10px 0; line-height: 1.3;">Presented at the International GIS Conference</h2>
       <p class="news-description">
         My research on "Spatio-temporal Traffic Prediction" was presented at the IGSC 2024. It was a great opportunity to share insights and connect with other researchers in the field.
       </p>
