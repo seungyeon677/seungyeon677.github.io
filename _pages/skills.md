@@ -57,17 +57,16 @@ author_profile: true
     <div class="method-box" style="border-left-color: #253A73;">
       <h3>Spatial Analysis</h3>
       <ul>
-        <li>Road Network Analysis (Dijkstra’s)</li>
-        <li>Service Area Analysis</li>
+        <li>Road Network Analysis (Dijkstra’s algorithm, Service Area)</li>
         <li>Accessibility (2SFCA / E2SFCA)</li>
         <li>Agent-based Modeling</li>
       </ul>
     </div>
     <div class="method-box" style="grid-column: span 2; border-left-color: #9D1C20;">
-      <h3>GeoAI & Machine Learning</h3>
+      <h3>AI</h3>
       <ul>
-        <li>GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
-        <li>LSTM / Random Forest / XGBoost</li>
+        <li><strong>Deep Learning</strong>: GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
+        <li><strong>Machine Learning</strong>: LSTM / Random Forest / XGBoost</li>
       </ul>
     </div>
   </div>
