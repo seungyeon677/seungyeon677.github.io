@@ -11,7 +11,7 @@ author_profile: true
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <style>
-  .news-container { color: #333; margin-top: 20px; font-family: 'Roboto', sans-serif; }
+  .news-container { color: #333; margin-top: 20px; }
   .news-item {
     display: flex; flex-direction: column; margin-bottom: 40px; padding: 20px;
     border: 1px solid #eee; border-radius: 10px; background-color: #fff;
@@ -19,14 +19,17 @@ author_profile: true
   }
   .news-item:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
 
-  .news-image-area { width: 100%; height: 250px; border-radius: 8px; margin-bottom: 20px; overflow: hidden; background: #f9f9f9; }
+  .news-image-area { width: 100%; height: 250px; border-radius: 8px; margin-bottom: 20px; overflow: hidden; background: #f9f9f9; position: relative; }
   .news-image-area img { width: 100%; height: 100%; object-fit: cover; }
 
-  .swiper-button-next, .swiper-button-prev { color: #fff !important; transform: scale(0.6); }
-  .swiper-pagination-bullet-active { background: #fff !important; }
+  /* 버튼과 도트가 흰색 배경에서 안 보일 수 있어 그림자를 살짝 추가했습니다 */
+  .swiper-button-next, .swiper-button-prev { color: #fff !important; transform: scale(0.6); filter: drop-shadow(0px 0px 2px rgba(0,0,0,0.5)); }
+  .swiper-pagination-bullet { background: #fff !important; opacity: 0.7; }
+  .swiper-pagination-bullet-active { background: #fff !important; opacity: 1; }
 
   .news-date { font-size: 0.85rem; color: #888; margin-bottom: 8px; font-weight: 500; }
-  .news-title { font-size: 1.2rem !important; font-weight: 700 !important; color: #253A73 !important; margin: 0 0 10px 0 !important; line-height: 1.3 !important; }
+  /* Academic Pages 테마 호환성을 위해 h2 border 제거 */
+  .news-title { font-size: 1.2rem !important; font-weight: 700 !important; color: #253A73 !important; margin: 0 0 10px 0 !important; line-height: 1.3 !important; border-bottom: none !important; }
   .news-description { font-size: 0.85rem; color: #555; line-height: 1.5; margin-bottom: 0; }
   .news-description b { color: #333; }
 
@@ -153,9 +156,19 @@ author_profile: true
 </div>
 
 <script>
-  var swiper = new Swiper(".newsSwiper", {
-    loop: true,
-    pagination: { el: ".swiper-pagination", clickable: true },
-    navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+  // 모든 newsSwiper 클래스를 찾아 각각 독립적으로 초기화합니다.
+  const swiperElements = document.querySelectorAll('.newsSwiper');
+  swiperElements.forEach((el) => {
+    new Swiper(el, {
+      loop: true,
+      pagination: { 
+        el: el.querySelector('.swiper-pagination'), 
+        clickable: true 
+      },
+      navigation: { 
+        nextEl: el.querySelector('.swiper-button-next'), 
+        prevEl: el.querySelector('.swiper-button-prev') 
+      },
+    });
   });
 </script>
