@@ -7,4 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<iframe src="/assets/pdf/CV_Seungyeon_Lee.pdf" width="100%" height="900px"></iframe>
+<iframe src="/assets/pdf/CV_Lee_Seungyeon.pdf" width="100%" height="1000px"></iframe>
+
+[📄 Download CV (PDF)](/assets/pdf/CV_Lee_Seungyeon.pdf)
