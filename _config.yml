@@ -27,8 +27,8 @@ author:
   name             : "Seungyeon Lee"
   pronouns         : # example: "she/her"  
   bio              : "MS in Geography (GIS), Kyung Hee Univ."
-  location         : "Seoul, Republic of Korea"
-  employer         : "Kyung Hee Univ."
+  location         : 
+  employer         : 
   uri              : # URL
   email            : "seungyeon677@khu.ac.kr" 
 
