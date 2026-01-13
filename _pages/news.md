@@ -12,7 +12,7 @@ author_profile: true
 
 <style>
   /* 폰트 적용 및 배경색 (추천드린 Warm White 계열 적용) */
-  .news-container { color: #333; margin-top: 20px; font-family: 'Roboto', sans-serif; }
+  .news-container { color: #333; margin-top: 20px; }
   
   .news-item {
     display: flex; flex-direction: column; margin-bottom: 40px; padding: 20px;
