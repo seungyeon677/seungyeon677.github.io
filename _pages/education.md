@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <div style="display: flex; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-  <div style="flex: 0 0 200px; margin-right: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
     <img src="{{ base_path }}/images/khu_logo.png" alt="Kyung Hee University Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
@@ -32,7 +32,7 @@ author_profile: true
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-  <div style="flex: 0 0 200px; margin-right: 20px;">
+  <div style="flex: 0 0 150px; margin-right: 20px;">
     <img src="{{ base_path }}/images/khu_logo.png" alt="Kyung Hee University Logo" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1;">
