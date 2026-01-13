@@ -54,7 +54,7 @@ author_profile: true
         <li>Mann-Kendall Test</li>
       </ul>
     </div>
-    <div class="method-box">
+    <div class="method-box" style="border-left-color: #253A73;">
       <h3>Spatial Analysis</h3>
       <ul>
         <li>Road Network Analysis (Dijkstra’s)</li>
@@ -63,7 +63,7 @@ author_profile: true
         <li>Agent-based Modeling</li>
       </ul>
     </div>
-    <div class="method-box" style="grid-column: span 2; border-left-color: #E84A5F;">
+    <div class="method-box" style="grid-column: span 2; border-left-color: #9D1C2D;">
       <h3>GeoAI & Machine Learning</h3>
       <ul>
         <li>GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
