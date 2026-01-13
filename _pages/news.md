@@ -21,9 +21,8 @@ author_profile: true
 
   .news-image-area { width: 100%; height: 250px; border-radius: 8px; margin-bottom: 20px; overflow: hidden; background: #f9f9f9; }
   .news-image-area img { width: 100%; height: 100%; object-fit: cover; }
-  .swiper-button-next, .swiper-button-prev { color: #fff !important; filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); transform: scale(0.6); }
-  .swiper-pagination-bullet { background: #fff !important; opacity: 0.6; }
-  .swiper-pagination-bullet-active { background: #fff !important; opacity: 1; }
+  .swiper-button-next, .swiper-button-prev { color: #9D1C20 !important; filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); transform: scale(0.6); }
+  .swiper-pagination-bullet-active { background: #9D1C20 !important; opacity: 1; }
   .news-date { font-size: 0.85rem; color: #888; margin-bottom: 8px; font-weight: 500; }
   .news-title { font-size: 1.2rem !important; font-weight: 700 !important; color: #253A73 !important; margin: 0 0 10px 0 !important; line-height: 1.3 !important; }
   .news-description { font-size: 0.85rem; color: #555; line-height: 1.5; margin-bottom: 0; }
