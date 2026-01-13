@@ -8,8 +8,8 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .skills-wrapper { font-family: 'Roboto', sans-serif; letter-spacing: -0.01em; color: #333; }
-  .section-title { font-size: 1.5rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; border-bottom: 2px solid #253A73; display: inline-block; }
+  .skills-wrapper { letter-spacing: -0.01em; color: #333; }
+  .section-title { font-size: 1.5rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; display: inline-block; }
   
   /* Grid for Technical Skills */
   .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin-bottom: 40px; }
@@ -31,14 +31,14 @@ author_profile: true
   <h2 class="section-title">Technical Skills</h2>
   
   <div class="tech-grid">
-    <div class="tech-card"><img src="{{base_path}}/assets/images/python_logo.svg"> <span class="name">Python</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/arcgis_logo.png"> <span class="name">ArcGIS Pro</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/qgis_logo.png"> <span class="name">QGIS</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/pix4d_logo.png"> <span class="name">Pix4D Mapper</span> <span class="level">Advanced</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/r_logo.png"> <span class="name">R Language</span> <span class="level">Intermediate</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/pytorch_logo.svg"> <span class="name">PyTorch</span> <span class="level">Intermediate</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/erdas_logo.png"> <span class="name">ERDAS Imagine</span> <span class="level">Intermediate</span> </div>
-    <div class="tech-card"><img src="{{base_path}}/assets/images/anylogic_logo.png"> <span class="name">AnyLogic</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/python_logo.svg"> <span class="name">Python</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/arcgis_logo.png"> <span class="name">ArcGIS Pro</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/qgis_logo.png"> <span class="name">QGIS</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/pix4d_logo.png"> <span class="name">Pix4D Mapper</span> <span class="level">Advanced</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/r_logo.png"> <span class="name">R</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/pytorch_logo.svg"> <span class="name">PyTorch</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/erdas_logo.png"> <span class="name">ERDAS Imagine</span> <span class="level">Intermediate</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/anylogic_logo.png"> <span class="name">AnyLogic</span> <span class="level">Intermediate</span> </div>
   </div>
 
   <h2 class="section-title">Research Methodologies</h2>
@@ -46,11 +46,11 @@ author_profile: true
     <div class="method-box">
       <h3>Spatial Statistics</h3>
       <ul>
-        <li>Moran’s I / LISA</li>
-        <li>Getis-Ord Gi*</li>
-        <li>SFlowLISA / BiFlowLISA</li>
-        <li>Space Time Cube / Emerging Hot Spot</li>
-        <li>GWR / MGWR</li>
+        <li>Spatial Autocorrelation (Moran’s I / LISA)</li>
+        <li>Spatial Clustering (Getis-Ord Gi*)</li>
+        <li>Spatial Flow Assosiation (SFlowLISA / BiFlowLISA)</li>
+        <li>Spatio-Temporal Clustering (Space Time Cube / Emerging Hot Spot)</li>
+        <li>Spatial Regression (GWR / MGWR)</li>
         <li>Mann-Kendall Test</li>
       </ul>
     </div>
