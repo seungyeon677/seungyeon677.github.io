@@ -13,7 +13,7 @@ author_profile: true
     display: flex; justify-content: space-between; align-items: center;
     padding: 25px; background: #ffffff; border: 1px solid #edf0f2;
     border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    margin-bottom: 30px; border-left: 6px solid #253A73;
+    margin-bottom: 30px;
   }
   .cv-info h3 { margin: 0; color: #253A73; font-size: 1.2rem; }
   .cv-info p { margin: 5px 0 0; color: #888; font-size: 0.85rem; }
@@ -28,7 +28,7 @@ author_profile: true
   /* 모바일용 전체화면 유도 플로팅 버튼 */
   .mobile-expand-btn {
     display: none; width: 100%; padding: 12px; background: #253A73;
-    color: white; text-align: center; text-decoration: none;
+    color: #ffffff; text-align: center; text-decoration: none;
     font-weight: 600; border-radius: 8px; margin-top: 10px;
   }
 
