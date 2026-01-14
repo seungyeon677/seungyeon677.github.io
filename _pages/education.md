@@ -10,7 +10,7 @@ author_profile: true
   
   /* 카드형 레이아웃 - News 탭과 통일 */
   .edu-item {
-    display: flex; flex-direction: column; margin-bottom: 30px; padding: 25px;
+    display: flex; flex-direction: column; margin-bottom: 30px; padding: 15px 25px;
     border: 1px solid #edf0f2; border-radius: 12px; background-color: #ffffff;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05); transition: 0.3s;
   }
