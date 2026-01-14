@@ -55,7 +55,7 @@ author_profile: true
   </div>
 
   <a href="/assets/pdf/CV_Lee_Seungyeon.pdf" class="mobile-expand-btn" target="_blank">
-    <i class="fas fa-expand"></i> Open PDF in Full Screen
+    <i class="fas fa-expand-arrows-alt"></i> Open PDF in Full Screen
   </a>
 
   <div class="pdf-container">
