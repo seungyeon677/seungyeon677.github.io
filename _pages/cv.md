@@ -6,14 +6,14 @@ author_profile: true
 ---
 
 <style>
-  .cv-wrapper { margin-top: 20px; }
+  .cv-wrapper { margin-top: 20px; font-family: 'Roboto', sans-serif; }
 
   /* 상단 헤더 섹션 */
   .cv-header-card {
     display: flex; justify-content: space-between; align-items: center;
     padding: 25px; background: #ffffff; border: 1px solid #edf0f2;
     border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    margin-bottom: 30px;
+    margin-bottom: 30px; border-left: 6px solid #253A73;
   }
   .cv-info h3 { margin: 0; color: #253A73; font-size: 1.2rem; }
   .cv-info p { margin: 5px 0 0; color: #888; font-size: 0.85rem; }
@@ -21,22 +21,35 @@ author_profile: true
   /* PDF 뷰어 컨테이너 */
   .pdf-container {
     position: relative; width: 100%; border-radius: 12px;
-    color: #fff; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     border: 1px solid #eee; background: #f8f9fa;
   }
   
-  /* 모바일용 전체화면 유도 플로팅 버튼 */
+  /* 모바일용 버튼 디자인 변경: 화이트 버전 */
   .mobile-expand-btn {
-    display: none; width: 100%; padding: 12px; background: #253A73;
-    color: #ffffff; text-align: center; text-decoration: none;
-    font-weight: 600; border-radius: 8px; margin-top: 10px;
+    display: none; 
+    width: 100%; 
+    padding: 14px; 
+    background: #ffffff;      /* 배경 하얀색 */
+    color: #253A73;           /* 텍스트 다크 블루 */
+    text-align: center; 
+    text-decoration: none;
+    font-weight: 600; 
+    border-radius: 10px; 
+    margin-bottom: 15px;      /* 위치를 뷰어 위로 조정 */
+    border: 1px solid #253A73; /* 테두리 포인트 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: 0.2s;
+  }
+  .mobile-expand-btn:hover {
+    background: #f1f4f9;
   }
 
   /* 반응형 처리 */
   @media (max-width: 768px) {
     .cv-header-card { flex-direction: column; text-align: center; gap: 20px; }
-    .pdf-container { height: 500px; } /* 모바일에서는 높이를 조금 줄임 */
-    .mobile-expand-btn { display: block; } /* 모바일에서만 노출 */
+    .pdf-container { height: 550px; }
+    .mobile-expand-btn { display: block; } /* 모바일에서 노출 */
   }
 </style>
 
@@ -48,14 +61,14 @@ author_profile: true
       <p><i class="fas fa-sync-alt"></i> Last updated: January 2026</p>
     </div>
     <div class="cv-actions">
-      <a href="/images/CV_Lee_Seungyeon.pdf" class="btn btn--info" target="_blank" style="margin: 0;">
+      <a href="/assets/pdf/CV_Lee_Seungyeon.pdf" class="btn btn--info" target="_blank" style="margin: 0;">
         <i class="fas fa-download"></i> Download PDF
       </a>
     </div>
   </div>
 
   <a href="/assets/pdf/CV_Lee_Seungyeon.pdf" class="mobile-expand-btn" target="_blank">
-    <i class="fas fa-expand-arrows-alt"></i> Open PDF in Full Screen
+    <i class="fas fa-expand-arrows-alt"></i> Open Full Screen PDF
   </a>
 
   <div class="pdf-container">
