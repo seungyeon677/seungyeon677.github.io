@@ -35,11 +35,11 @@ author_profile: true
   
   /* 상세 리스트 */
   .edu-details { margin: 10px 0 0 18px; padding: 0; list-style-type: disc; }
-  .edu-details li { font-size: 0.9rem; color: #555; margin-bottom: 6px; line-height: 1.4; }
+  .edu-details li { font-size: 0.8rem; color: #555; margin-bottom: 6px; line-height: 1.3; }
   .edu-details li strong { color: #333; }
   
   /* 링크 스타일 */
-  .edu-link { color: #253A73; text-decoration: none; font-size: 0.85rem; margin-left: 5px; transition: 0.2s; }
+  .edu-link { color: #253A73; text-decoration: none; font-size: 0.8rem; margin-left: 5px; transition: 0.2s; }
   .edu-link:hover { text-decoration: underline; color: #007bff; }
 
   /* PC 화면 가로 배치 */
@@ -59,7 +59,7 @@ author_profile: true
       <h2 class="edu-degree">M.S. in Geography</h2>
       <div class="edu-univ">Kyung Hee University</div>
       <div class="edu-dept">Department of Geography (Specialized in GIS and Cartography)</div>
-      <span class="edu-meta">Mar 2023 – Feb 2025 | Seoul, South Korea</span>
+      <span class="edu-meta">Mar 2023 – Aug 2025 | Seoul, Republic of Korea</span>
       
       <ul class="edu-details">
         <li>
