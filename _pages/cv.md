@@ -54,13 +54,13 @@ author_profile: true
     </div>
   </div>
 
-  <a href="/images/CV_Lee_Seungyeon.pdf" class="mobile-expand-btn" target="_blank">
+  <a href="/assets/pdf/CV_Lee_Seungyeon.pdf" class="mobile-expand-btn" target="_blank">
     <i class="fas fa-expand"></i> Open PDF in Full Screen
   </a>
 
   <div class="pdf-container">
     <iframe 
-      src="/images/CV_Lee_Seungyeon.pdf#toolbar=0&navpanes=0&scrollbar=0" 
+      src="/assets/pdf/CV_Lee_Seungyeon.pdf#toolbar=0&navpanes=0&scrollbar=0" 
       width="100%" 
       height="1000px" 
       style="border: none;">
