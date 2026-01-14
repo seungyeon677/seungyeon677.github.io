@@ -21,7 +21,7 @@ author_profile: true
   /* PDF 뷰어 컨테이너 */
   .pdf-container {
     position: relative; width: 100%; border-radius: 12px;
-    overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    color: #fff; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     border: 1px solid #eee; background: #f8f9fa;
   }
   
