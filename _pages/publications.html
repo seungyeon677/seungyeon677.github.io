@@ -15,7 +15,7 @@ author_profile: true
 <style>
   .pub-container { color: #333; }
   
-  /* 상단 통계 요약 섹션 - 다른 탭의 강조 박스와 통일 */
+  /* 상단 통계 요약 섹션 */
   .pub-summary-box {
     background-color: #ffffff; padding: 25px; border-radius: 12px; 
     margin: 20px 0 40px; border: 1px solid #edf0f2; 
@@ -37,13 +37,28 @@ author_profile: true
   }
   .pub-hr { border: 0; height: 2px; background: #253A73; width: 50px; margin: 0 0 25px 0; border-radius: 2px; }
 
-  /* 개별 논문 항목 스타일 조정 (archive-single.html과 연동) */
-  .archive__item {
-    background: #ffffff; padding: 20px; border-radius: 10px;
-    border: 1px solid #edf0f2; margin-bottom: 15px; transition: 0.3s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  /* ⭐ 중복 테두리 해결: 테마 내부의 archive__item 스타일을 직접 제어 */
+  .list__item .archive__item {
+    background: #ffffff !important;
+    padding: 25px !important; /* 내부 여백 확보 */
+    border-radius: 12px !important;
+    border: 1px solid #edf0f2 !important; /* 이 테두리 하나만 남깁니다 */
+    margin-bottom: 20px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+    transition: 0.3s ease;
   }
-  .archive__item:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.07); }
+
+  .list__item .archive__item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+    border-color: #253A73 !important;
+  }
+
+  /* 내부 제목 선 중복 제거 */
+  .archive__item-title {
+    margin-top: 0 !important;
+    border-bottom: none !important;
+  }
 </style>
 
 <div class="pub-container">
@@ -77,16 +92,12 @@ author_profile: true
           {% assign title_shown = true %}
         {% endunless %}
 
-        <div class="archive__item">
-          {% include archive-single.html %}
-        </div>
+        {% include archive-single.html %}
       {% endfor %}
     {% endfor %}
   {% else %}
     {% for post in site.publications reversed %}
-      <div class="archive__item">
-        {% include archive-single.html %}
-      </div>
+      {% include archive-single.html %}
     {% endfor %}
   {% endif %}
 
