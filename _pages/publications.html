@@ -6,44 +6,92 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div style="margin-bottom: 20px; font-size: 0.95rem; color: #555;">
+    <i class="fas fa-graduation-cap"></i> You can also find my articles on 
+    <a href="{{site.author.googlescholar}}" target="_blank" style="color: #253A73; font-weight: 600; text-decoration: none;">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
 
-{% assign journal_count = site.publications | where: "category", "manuscripts" | size %}
-{% assign conference_count = site.publications | where: "category", "conferences" | size %}
-{% assign working_paper_count = site.publications | where: "category", "working_papers" | size %}
+<style>
+  .pub-container { color: #333; font-family: 'Roboto', sans-serif; }
+  
+  /* 상단 통계 요약 섹션 - 다른 탭의 강조 박스와 통일 */
+  .pub-summary-box {
+    background-color: #ffffff; padding: 25px; border-radius: 12px; 
+    margin: 20px 0 40px; border: 1px solid #edf0f2; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 6px solid #253A73;
+  }
+  .pub-summary-title { font-size: 1.1rem; font-weight: 700; color: #253A73; display: flex; align-items: center; gap: 8px; }
+  .pub-summary-list { 
+    display: flex; gap: 20px; margin: 15px 0 0 0; padding: 0; 
+    list-style: none; font-size: 0.9rem; flex-wrap: wrap;
+  }
+  .pub-summary-list li { background: #f8f9fa; padding: 5px 15px; border-radius: 20px; color: #555; }
+  .pub-summary-list b { color: #253A73; }
 
-<div style="background-color: #fcfcfc; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #eee; line-height: 1.6;">
-  <span style="font-size: 1.0rem;">📊</span> <b>Publication Summary</b>
-  <ul style="margin: 10px 0 0 20px; padding: 0; font-size: 0.85rem; list-style-type: none;">
-    <li>• Working Papers: <b>{{ working_paper_count }}</b></li>
-    <li>• Journal Articles: <b>{{ journal_count }}</b></li>
-    <li>• Conference Presentations: <b>{{ conference_count }}</b></li>
-  </ul>
-</div>
+  /* 카테고리 헤더 */
+  .pub-category-title { 
+    font-size: 1.4rem; font-weight: 700; color: #253A73; 
+    margin: 40px 0 15px; border-bottom: none !important; 
+  }
+  .pub-hr { border: 0; height: 2px; background: #253A73; width: 50px; margin: 0 0 25px 0; border-radius: 2px; }
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+  /* 개별 논문 항목 스타일 조정 (archive-single.html과 연동) */
+  .archive__item {
+    background: #ffffff; padding: 20px; border-radius: 10px;
+    border: 1px solid #edf0f2; margin-bottom: 15px; transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+  .archive__item:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.07); }
+</style>
+
+<div class="pub-container">
+
+  {% assign journal_count = site.publications | where: "category", "manuscripts" | size %}
+  {% assign conference_count = site.publications | where: "category", "conferences" | size %}
+  {% assign working_paper_count = site.publications | where: "category", "working_papers" | size %}
+
+  <div class="pub-summary-box">
+    <div class="pub-summary-title">
+      <i class="fas fa-chart-bar"></i> Publication Summary
+    </div>
+    <ul class="pub-summary-list">
+      <li>Journal Articles: <b>{{ journal_count }}</b></li>
+      <li>Conference Presentations: <b>{{ conference_count }}</b></li>
+      <li>Working Papers: <b>{{ working_paper_count }}</b></li>
+    </ul>
+  </div>
+
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        
+        {% unless title_shown %}
+          <h2 class="pub-category-title">{{ category[1].title }}</h2>
+          <div class="pub-hr"></div>
+          {% assign title_shown = true %}
+        {% endunless %}
+
+        <div class="archive__item">
+          {% include archive-single.html %}
+        </div>
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% else %}
+    {% for post in site.publications reversed %}
+      <div class="archive__item">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
+  {% endif %}
 
+</div>
 
 
