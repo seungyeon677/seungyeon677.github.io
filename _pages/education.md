@@ -58,7 +58,7 @@ author_profile: true
     <div class="edu-content">
       <h2 class="edu-degree">M.S. in Geography</h2>
       <div class="edu-univ">Kyung Hee University</div>
-      <div class="edu-dept">Department of Geography (Specialized in GIS and Cartography)</div>
+      <div class="edu-dept">Department of Geography <br> (Specialized in GIS and Cartography)</div>
       <span class="edu-meta">Mar 2023 – Aug 2025 | Seoul, Republic of Korea</span>
       
       <ul class="edu-details">
