@@ -28,7 +28,7 @@ author_profile: true
   /* 모바일용 전체화면 유도 플로팅 버튼 */
   .mobile-expand-btn {
     display: none; width: 100%; padding: 12px; background: #253A73;
-    color: #fff; text-align: center; text-decoration: none;
+    color: #ffffff; text-align: center; text-decoration: none;
     font-weight: 600; border-radius: 8px; margin-top: 10px;
   }
 
