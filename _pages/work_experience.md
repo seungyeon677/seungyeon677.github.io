@@ -35,7 +35,7 @@ author_profile: true
   /* 텍스트 영역 */
   .work-content { flex: 1; }
   .work-role { 
-    font-size: 1.25rem !important; font-weight: 700 !important; color: #253A73 !important; 
+    font-size: 1.3rem !important; font-weight: 700 !important; color: #253A73 !important; 
     margin: 0 0 8px 0 !important; line-height: 1.2 !important; border-bottom: none !important; 
   }
   .work-org { font-size: 1.05rem; font-weight: 600; color: #444; margin-bottom: 5px; }
@@ -43,7 +43,7 @@ author_profile: true
   
   /* 업무 상세 내용 */
   .work-details { margin: 10px 0 0 18px; padding: 0; list-style-type: disc; }
-  .work-details li { font-size: 0.88rem; color: #555; margin-bottom: 6px; line-height: 1.5; }
+  .work-details li { font-size: 0.85rem; color: #555; margin-bottom: 6px; line-height: 1.3; }
   .work-details li i { color: #666; }
 
   /* PC 화면 가로 배치 */
