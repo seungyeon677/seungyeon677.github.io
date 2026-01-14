@@ -18,7 +18,7 @@ author_profile: true
 
   /* 로고 영역 */
   .edu-logo-area { 
-    width: 120px; height: 120px; margin-bottom: 20px; 
+    width: 120px; height: 120px; margin-bottom: 10px; 
     display: flex; align-items: center; justify-content: center; flex-shrink: 0;
   }
   .edu-logo-area img { max-width: 100%; max-height: 100%; object-fit: contain; }
@@ -29,8 +29,8 @@ author_profile: true
     font-size: 1.3rem !important; font-weight: 700 !important; color: #253A73 !important; 
     margin: 0 0 8px 0 !important; line-height: 1.2 !important; border-bottom: none !important; 
   }
-  .edu-univ { font-size: 1.05rem; font-weight: 600; color: #444; margin-bottom: 5px; }
-  .edu-dept { font-size: 0.95rem; color: #666; margin-bottom: 5px; }
+  .edu-univ { font-size: 1.05rem; font-weight: 600; color: #444; margin-bottom: 3px; }
+  .edu-dept { font-size: 0.95rem; color: #666; margin-bottom: 3px; }
   .edu-meta { font-size: 0.85rem; color: #888; margin-bottom: 15px; display: block; }
   
   /* 상세 리스트 */
