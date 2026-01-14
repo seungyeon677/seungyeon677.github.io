@@ -10,6 +10,8 @@ author_profile: true
 <style>
   .skills-wrapper { letter-spacing: -0.01em; color: #333; }
   .section-title { font-size: 1.6rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; display: inline-block; }
+  .pub-hr { border: 0; height: 2px; background: #253A73; width: 50px; margin: 0 0 25px 0; border-radius: 2px; }
+
   
   /* Grid for Technical Skills */
   .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin-bottom: 40px; }
