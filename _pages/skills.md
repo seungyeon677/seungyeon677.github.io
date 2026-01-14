@@ -31,6 +31,7 @@ author_profile: true
 
 <div class="skills-wrapper">
   <h2 class="section-title">Technical Skills</h2>
+  <div class="pub-hr"></div>
   
   <div class="tech-grid">
     <div class="tech-card"><img src="{{base_path}}/images/python_logo.png"> <span class="name">Python</span> <span class="level">Advanced</span> </div>
@@ -44,6 +45,7 @@ author_profile: true
   </div>
 
   <h2 class="section-title">Research Methodologies</h2>
+  <div class="pub-hr"></div>
   <div class="method-container">
     <div class="method-box">
       <h3>Spatial Statistics</h3>
