@@ -18,11 +18,11 @@ Outside of my research, you can usually find me nurturing my indoor plants🌱, 
 
 <style>
   .interest-wrapper { letter-spacing: -0.01em; color: #333; }
-  .section-title { font-size: 1.6rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; display: inline-block; }
+  .section-title { font-size: 1.6rem; font-weight: 700; color: #253A73; margin: 30px 0 15px; display: inline-block; border-bottom: none !important; }
   .pub-hr { border: 0; height: 2px; background: #253A73; width: 50px; margin: 0 0 25px 0; border-radius: 2px; }
 
   
-  /* Grid for Technical Skills */
+  /* Grid for Research Interests */
   .tech-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr /*repeat(auto-fill, minmax(130px, 1fr))*/; gap: 15px; margin-bottom: 40px; }
   .tech-card { display: flex; flex-direction: column; align-items: center; padding: 15px; border: 1px solid #f0f0f0; border-radius: 8px; background: #fff; transition: 0.3s; }
   .tech-card:hover { border-color: #253A73; transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
