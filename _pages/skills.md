@@ -25,7 +25,7 @@ author_profile: true
   .method-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .method-box { background: #fcfcfc; padding: 18px; border-radius: 8px; border-left: 4px solid #eee; }
   .method-box h3 { font-size: 1.1rem; margin: 0 0 10px 0; }
-  .method-box ul { margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; }
+  .method-box ul { margin: 0; /*padding-left: 18px;*/ font-size: 0.85rem; line-height: 1.5; }
   .method-box li { margin-bottom: 5px; }
 </style>
 
@@ -55,7 +55,6 @@ author_profile: true
         <li><strong>Spatial Flow Assosiation</strong>: SFlowLISA, BiFlowLISA</li>
         <li><strong>Spatio-Temporal Clustering</strong>: Space Time Cube, Emerging Hot Spot</li>
         <li><strong>Spatial Regression</strong>: GWR, MGWR</li>
-        <li>Mann-Kendall Test</li>
       </ul>
     </div>
     <div class="method-box" style="border-left-color: #253A73;">
@@ -69,7 +68,7 @@ author_profile: true
     <div class="method-box" style="grid-column: span 2; border-left-color: #9D1C20;">
       <h3>AI</h3>
       <ul>
-        <li><strong>Deep Learning</strong>: GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
+        <li><strong>GeoAI</strong>: GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
         <li><strong>Machine Learning</strong>: LSTM, Random Forest, XGBoost</li>
       </ul>
     </div>
