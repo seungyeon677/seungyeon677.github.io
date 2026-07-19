@@ -61,7 +61,7 @@ author_profile: true
       <p><i class="fas fa-sync-alt"></i> Last updated: January 2026</p>
     </div>
     <div class="cv-actions">
-      <a href="/assets/pdf/CV_Lee_Seungyeon.pdf" class="btn btn--info" target="_blank" style="margin: 0;">
+      <a href="/assets/pdf/CV.pdf" class="btn btn--info" target="_blank" style="margin: 0;">
         <i class="fas fa-download"></i> Download PDF
       </a>
     </div>
