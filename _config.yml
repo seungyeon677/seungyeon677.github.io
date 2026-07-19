@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Seungyeon Lee"
 title_separator          : "-"
 name                     : &name "Seungyeon Lee"
-description              : &description "MS in Geography specialized in GIS and Spatio-Temporal Data Analytics at Kyung Hee University."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "MS in Geography specialized in Human Mobility Patterns and Spatial Network Analysis at Kyung Hee University."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://seungyeon677.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
