@@ -22,10 +22,10 @@ author_profile: true
   .tech-card .level { font-size: 0.75rem; color: #888; margin-top: 2px; }
 
   /* Methodology List Style */
-  .method-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .method-container { display: grid; grid-template-columns: 1fr; gap: 20px; }
   .method-box { background: #fcfcfc; padding: 18px; border-radius: 8px; border-left: 4px solid #eee; }
   .method-box h3 { font-size: 1.1rem; margin: 0 0 10px 0; }
-  .method-box ul { /*margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5;*/ margin-bottom: 5px; }
+  .method-box ul { margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; }
   .method-box li { margin-bottom: 5px; }
 </style>
 
