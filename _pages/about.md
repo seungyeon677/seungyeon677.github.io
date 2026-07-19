@@ -8,9 +8,37 @@ redirect_from:
 ---
 {% include base_path %}
 
-I am a Master of Science in **Geography (GIS)** from **Kyung Hee University**, specializing in Spatio-Temporal Data Analytics and GeoAI. My research focuses on leveraging spatial deep learning to solve urban mobility challenges and improve traffic safety. 
+# Hello, I'm a Spatiotemporal Data Scientist & Spatial Network Researcher. 👋
 
-During my graduate studies, I participated in the **IITP Global Research Support Program**, conducting advanced spatial research and collaborating on high-impact projects. I am passionate about understanding urban dynamics through data and developing accessible spatial solutions.
+---
+
+## 👤 About Me
+
+I am a passionate researcher specializing in **Human Mobility Patterns** and **Spatial Network Analysis**. My research journey begins with a fundamental question: *How can we interpret complex movement patterns on road networks to predict regional changes and resolve social inequity?*
+
+By blending the rigor of **Civil Engineering**, the spatial depth of **Geography**, and the forward-looking vision of **Urban Planning**, I study the invisible pulse of cities. My core strength lies in **shifting social equity discussions from static, frozen urban representations to living, dynamic dimensions** that evolve hour by hour, day by day. 
+
+With a solid foundation in **Linear Algebra and Matrix Computation**, I develop and apply **GeoAI and Spatiotemporal Machine Learning frameworks** (such as GNNs and STGCN) to translate messy, real-world big data into actionable, human-centered spatial insights. 
+
+Ultimately, my goal is to design safer, smarter, and more resilient urban systems where essential infrastructure and public services are equitably accessible to everyone.
+
+---
+
+## 🔬 Research Interests
+
+Here is the "Big Picture" of what I study and where I am heading:
+
+### 📊 Spatiotemporal Data Science & Network Analysis
+* **Goal:** To decrypt the complex and ever-changing dynamics of human mobility by developing advanced mathematical models rooted in network topology and spatiotemporal data computation.
+
+### 🚗 Transportation Safety & Accessibility
+* **Goal:** To evaluate and enhance the systemic safety and accessibility of transportation networks, ensuring resilient mobility and equitable access across all transit-driven urban scenarios.
+
+### 🏙️ GeoAI for Smart & Resilient Cities
+* **Goal:** To harness the power of geographic artificial intelligence and predictive modeling to anticipate future urban shocks and design adaptive, climate-resilient spatial environments.
+
+### ⏳ Dynamic Urban Vulnerability & Spatial Equity
+* **Goal:** To transition the paradigm of social justice from static spatial analysis to time-dependent dimensions, thereby uncovering and mitigating invisible, real-world welfare blind spots.
 
 <table style="width: 100%; border-collapse: collapse; border: none;">
   <tr style="border: none;">
