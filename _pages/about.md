@@ -33,6 +33,7 @@ Outside of my research, you can usually find me nurturing my indoor plants🌱, 
 
 
 <div class="interest-wrapper">
+  <h2 class="section-title">Research Interests</h2>
   <div class="pub-hr"></div>
   
   <div class="tech-grid">
