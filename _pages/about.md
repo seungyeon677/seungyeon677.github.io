@@ -36,7 +36,10 @@ Outside of my research, you can usually find me nurturing my indoor plants🌱, 
   <div class="pub-hr"></div>
   
   <div class="tech-grid">
-    <div class="tech-card"><img src="{{base_path}}/images/navigation.png"> <span class="name">Spatiotemporal Data Science & Network Analysis</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/navigation.png"> <span class="name">Spatio-temporal Data Science & Network Analysis</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/deep-learning.png"> <span class="name">GeoAI for Smart & Resilient Cities</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/self-driving.png"> <span class="name">Transportation Safety & Accessibility</span> </div>
+    <div class="tech-card"><img src="{{base_path}}/images/immigrant.png"> <span class="name">Dynamic Urban Vulnerability & Spatial Equity</span> </div>
   </div>
 </div>
 
