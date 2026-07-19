@@ -65,7 +65,7 @@ author_profile: true
         <li><strong>Agent-based Modeling</strong></li>
       </ul>
     </div>
-    <div class="method-box" style="grid-column: span 2; border-left-color: #9D1C20;">
+    <div class="method-box" style="/*grid-column: span 2;*/ border-left-color: #9D1C20;">
       <h3>AI</h3>
       <ul>
         <li><strong>GeoAI</strong>: GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
