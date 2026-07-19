@@ -15,7 +15,7 @@ redirect_from:
 
   
   /* Grid for Technical Skills */
-  .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin-bottom: 40px; }
+  .tech-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr /*repeat(auto-fill, minmax(130px, 1fr))*/; gap: 15px; margin-bottom: 40px; }
   .tech-card { display: flex; flex-direction: column; align-items: center; padding: 15px; border: 1px solid #f0f0f0; border-radius: 8px; background: #fff; transition: 0.3s; }
   .tech-card:hover { border-color: #253A73; transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
   .tech-card img { width: 160px; height: 160px; object-fit: contain; margin-bottom: 10px; }
