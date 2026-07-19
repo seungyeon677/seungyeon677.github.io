@@ -58,7 +58,7 @@ author_profile: true
   <div class="cv-header-card">
     <div class="cv-info">
       <h3>Full Curriculum Vitae</h3>
-      <p><i class="fas fa-sync-alt"></i> Last updated: January 2026</p>
+      <p><i class="fas fa-sync-alt"></i> Last updated: {{ site.time | date: "%B %Y" }}</p>
     </div>
     <div class="cv-actions">
       <a href="/assets/pdf/CV.pdf" class="btn btn--info" target="_blank" style="margin: 0;">
