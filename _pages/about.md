@@ -10,8 +10,8 @@ redirect_from:
 
 Hello, I'm **Seungyeon Lee**. 
 
- I am a passionate researcher specializing in **Human Mobility Patterns** and **Spatial Network Analysis**. My research journey begins with a fundamental question: *How can we interpret complex movement patterns on road networks to predict regional changes and resolve social inequity?* 
- My core strength lies in **shifting social equity discussions from static, frozen urban representations to living, dynamic dimensions** that evolve hour by hour, day by day. Ultimately, my goal is to design safer, smarter, and more resilient urban systems where essential infrastructure and public services are equitably accessible to everyone.
+I am a passionate researcher specializing in **Human Mobility Patterns** and **Spatial Network Analysis**. My research journey begins with a fundamental question: *How can we interpret complex movement patterns on road networks to predict regional changes and resolve social inequity?* 
+My core strength lies in **shifting social equity discussions from static, frozen urban representations to living, dynamic dimensions** that evolve hour by hour, day by day. Ultimately, my goal is to design safer, smarter, and more resilient urban systems where essential infrastructure and public services are equitably accessible to everyone.
 
 Outside of my research, you can usually find me nurturing my indoor plants🌱, sketching🎨, or enjoying long walks with my dog🐾.
 
