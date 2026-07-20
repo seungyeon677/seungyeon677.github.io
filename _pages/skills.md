@@ -69,7 +69,7 @@ author_profile: true
       <h3>AI</h3>
       <ul>
         <li><strong>GeoAI</strong>: GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
-        <li><strong>Machine Learning</strong>: LSTM, Random Forest, XGBoost</li>
+        <li><strong>Machine Learning</strong>: Linear Algebra, LSTM, Random Forest, XGBoost</li>
       </ul>
     </div>
   </div>
