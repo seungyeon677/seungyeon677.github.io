@@ -47,6 +47,6 @@ Outside of my research, you can usually find me nurturing my indoor plants🌱, 
 <div style="text-align: center; margin-top: 50px;">
   <h2 style="font-size: 2rem; font-weight: 700; color: #333; margin-bottom: 20px;">Visitors in 2026</h2>
   
-  <iframe width="1000" height="600" src="https://datastudio.google.com/embed/reporting/0ab1ae20-6a19-4873-9174-acae4a1792a6/page/k1I4F" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+  <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/0ab1ae20-6a19-4873-9174-acae4a1792a6/page/k1I4F" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 </div>
 
