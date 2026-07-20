@@ -18,7 +18,7 @@ $caption-font-family: "Lato", sans-serif;
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default'}}",
+    
 
     "include/mixins",
     "vendor/susy/susy",
