@@ -40,7 +40,7 @@ author_profile: true
 <div class="news-container">
 
   <div class="news-item">
-    <div class="news-image-area"><img src="{{ base_path }}/images/linear_certificate.jpg" alt="Graduation"></div>
+    <div class="news-image-area"><img src="{{ base_path }}/images/linear_certificate.png" alt="Graduation"></div>
     <div class="news-content">
       <p class="news-date">Jul 13, 2026</p>
       <h2 class="news-title">Completed the verified course "Linear Algebra" on edx, issued by UTAustin</h2>
