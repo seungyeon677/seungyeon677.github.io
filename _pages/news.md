@@ -40,6 +40,17 @@ author_profile: true
 <div class="news-container">
 
   <div class="news-item">
+    <div class="news-image-area"><img src="{{ base_path }}/images/linear_certificate.jpg" alt="Graduation"></div>
+    <div class="news-content">
+      <p class="news-date">Jul 13, 2026</p>
+      <h2 class="news-title">Completed the verified course "Linear Algebra" on edx, issued by UTAustin</h2>
+      <p class="news-description">
+        To deepen my mathematical foundation in matrix computation to better transition into complex GeoAI and spatio-temporal network modeling, I finally received a certificate in "Linear Algebra".
+      </p>
+    </div>
+  </div>
+
+  <div class="news-item">
     <div class="news-image-area"><img src="{{ base_path }}/images/graduation_1.jpg" alt="Graduation"></div>
     <div class="news-content">
       <p class="news-date">Aug 20, 2025</p>
