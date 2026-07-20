@@ -23,7 +23,7 @@ Outside of my research, you can usually find me nurturing my indoor plants🌱, 
 
   
   /* Grid for Research Interests */
-  .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin-bottom: 40px; }
+  .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; margin-bottom: 40px; }
   .tech-card { display: flex; flex-direction: column; align-items: center; padding: 15px; border: 1px solid #f0f0f0; border-radius: 8px; background: #fff; transition: 0.3s; }
   .tech-card:hover { border-color: #253A73; transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
   .tech-card img { width: 160px; height: 160px; object-fit: contain; margin-bottom: 10px; }
@@ -47,7 +47,10 @@ Outside of my research, you can usually find me nurturing my indoor plants🌱, 
 <div class="visitors">
   <h2 class="section-title">Visitors in 2026</h2>
   <div class="pub-hr"></div>
-  
-  <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/0ab1ae20-6a19-4873-9174-acae4a1792a6/page/k1I4F" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
+  <div style="width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden; border-radius: 8px; border: 1px solid #f0f0f0;">
+    <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/0ab1ae20-6a19-4873-9174-acae4a1792a6/page/k1I4F" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    
+  </div>
 </div>
 
