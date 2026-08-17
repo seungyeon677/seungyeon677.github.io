@@ -1,1 +1,24 @@
+<!-- TAB 2: CV -->
+<div id="content-cv" class="tab-pane hidden space-y-6">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-hairline pb-3 gap-3">
+    <h2 class="text-3xl font-serif font-bold text-accent">Curriculum Vitae</h2>
+    <a href="./assets/pdf/CV_Seungyeon_Lee.pdf" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 bg-accent-blue hover:bg-opacity-90 text-white rounded-lg text-xs font-medium shadow-sm transition-colors self-start sm:self-auto">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+      Download PDF
+    </a>
+  </div>
 
+  <div class="bg-paper-soft border border-hairline rounded-xl p-5 flex justify-between items-center text-xs text-ink-muted">
+    <div>
+      <span class="font-semibold text-ink block text-sm">Full Curriculum Vitae</span>
+      <span id="cv-updated-date">Updated: Loading...</span> <!-- id 추가 및 기본 텍스트 -->
+    </div>
+  </div>
+
+  <!-- Embedded PDF Viewer / Fallback -->
+  <div class="w-full h-[650px] border border-hairline rounded-xl overflow-hidden bg-white shadow-sm">
+    <iframe src="./assets/pdf/CV_Seungyeon_Lee.pdf" class="w-full h-full" title="CV Preview">
+      <p class="p-6 text-sm text-ink-muted">Your browser does not support inline PDFs. <a href="./assets/pdf/Seungyeon_Lee_CV.pdf" class="text-accent underline">Download CV PDF</a>.</p>
+    </iframe>
+  </div>
+</div>
