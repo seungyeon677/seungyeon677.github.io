@@ -232,59 +232,230 @@
       <div id="content-publications" class="tab-pane hidden space-y-6">
         <h2 class="text-3xl font-serif font-bold text-accent border-b border-hairline pb-3">Publications</h2>
         <p class="text-xs text-ink-muted">🎓 You can also find my articles on my <a href="https://scholar.google.com" target="_blank" class="text-accent-blue font-semibold hover:underline">Google Scholar profile</a>.</p>
-
+      
         <!-- Publication Summary -->
-        <div class="bg-paper-soft border border-hairline rounded-xl p-4 flex flex-wrap gap-4 items-center text-xs">
+        <div class="bg-paper-soft border border-hairline rounded-xl p-4 flex flex-wrap gap-3 items-center text-xs">
           <span class="font-bold text-accent-blue">Publication Summary</span>
           <span class="px-2.5 py-1 rounded-full bg-paper border border-hairline text-ink">Journal Articles: <strong>5</strong></span>
           <span class="px-2.5 py-1 rounded-full bg-paper border border-hairline text-ink">Conference Presentations: <strong>9</strong></span>
-          <span class="px-2.5 py-1 rounded-full bg-paper border border-hairline text-ink">Working Papers: <strong>0</strong></span>
         </div>
-
+      
         <div class="space-y-4">
           <h3 class="text-xl font-serif font-bold text-accent-blue">Journal Articles</h3>
-
+      
           <!-- Paper 1 -->
-          <div class="p-5 bg-paper-soft border border-hairline rounded-xl space-y-2 shadow-sm">
-            <h4 class="font-bold text-ink text-base">A Study on the Correlation Between Intersection Traffic Environment Complexity and Traffic Accidents: A Case Study of Atlanta, Georgia, USA</h4>
-            <p class="text-xs text-ink-muted italic">Published in Journal of the Korean Geographical Society, 2025</p>
-            <p class="text-xs text-ink-muted leading-relaxed">Recommended citation: Cho, Y., Seong, J. C., Lee, S., & Hwang, C. S. (2025). 교차로 교통환경 복잡성과 교통사고의 상관성 연구 - 미국 조지아주 애틀랜타를 사례로 -. <em>Journal of the Korean Geographical Society</em>, 60(4), 451-463.</p>
-            <a href="./publications/2025_atlanta_traffic.pdf" target="_blank" class="inline-block text-xs text-accent-blue font-semibold hover:underline pt-1">[Download Paper]</a>
-          </div>
-
+          <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
+  
+            <!-- 요약 헤더 (클릭 전 보이는 부분) -->
+            <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
+                  <span class="text-xs text-ink-muted">Aug 2025</span>
+                </div>
+                <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
+                  A Study on the Correlation Between Intersection Traffic Environment Complexity and Traffic Accidents: A Case Study of Atlanta, Georgia, USA
+                </h4>
+                <p class="text-xs text-ink-muted">
+                  Cho, Y., Seong, J. C., <strong>Lee, S.</strong>, & Hwang, C. S. (2025). 교차로 교통환경 복잡성과 교통사고의 상관성 연구 - 미국 조지아주 애틀랜타를 사례로 -. <em>Journal of the Korean Geographical Society</em>, 60(4), 451-463.
+                </p>
+              </div>
+              <!-- 화살표 아이콘 -->
+              <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
+                ▼
+              </span>
+            </summary>
+          
+            <!-- 펼침 상세 영역 (Abstract, PDF 버튼, Figures) -->
+            <div class="px-5 pb-5 pt-3 border-t border-hairline text-xs space-y-4 bg-paper/30">
+              
+              <!-- Abstract -->
+              <div>
+                <span class="font-bold text-ink block mb-1 text-sm">Abstract</span>
+                <p class="text-ink-muted leading-relaxed">
+                  This research investigates visual, structural, and point-of-interest (POI) complexity factors that influence drivers' perception and understanding of traffic conditions at road intersections. It also examines the relationship between intersection complexity and vehicle crashes. Considering that intersection land use varies with urbanization levels, the study categorizes samples into three groups—high-density, medium-density, and low-density—using the Fractional Impervious Surface metric. Fourteen variables were identified to evaluate intersection traffic environment complexity in Atlanta. The findings reveal that in high-density areas, structural factors such as lane count, speed limits, and traffic volume are strongly and positively correlated with traffic accidents. In medium-density areas, structural complexity variables, sky ratio, and the presence of well-known POIs also show positive correlations with crashes. In low-density areas, speed limits are significantly associated with accidents, while a higher vegetation ratio appears to reduce crash occurrences. This study contributes to the field by providing a method to quantify intersection traffic environment complexity and proposing tailored strategies for traffic accident reduction based on urban development levels.
+                </p>
+              </div>
+          
+              <!-- Download Paper Button -->
+              <div>
+                <a href="https://journal.kgeography.or.kr/media/sites/geo/2025-060-04/N013600404/N013600404.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-accent-blue text-white rounded-lg text-xs font-medium hover:bg-opacity-90 transition-colors shadow-sm">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                  Download Paper (PDF)
+                </a>
+              </div>
+          
+              <!-- Figures Section (이미지 2개 나란히 배치) -->
+              <div class="pt-3 border-t border-hairline space-y-2">
+                <span class="font-bold text-ink block text-sm">Key Figures</span>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  
+                  <!-- Figure 1 -->
+                  <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm">
+                    <img src="./image/KGS2025_1.png" alt="Figure 1" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+1'">
+                    <p class="text-[11px] text-ink-muted">
+                      <strong>Figure 1.</strong> Urban development level at intersections
+                    </p>
+                  </div>
+          
+                  <!-- Figure 2 -->
+                  <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm">
+                    <img src="./image/KGS2025_2.png" alt="Figure 2" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+2'">
+                    <p class="text-[11px] text-ink-muted">
+                      <strong>Figure 2.</strong> Spearman correlation coefficients between complexity variables and traffic accidents
+                    </p>
+                  </div>
+          
+                </div>
+              </div>
+          
+            </div>
+          </details>
+      
           <!-- Paper 2 -->
-          <div class="p-5 bg-paper-soft border border-hairline rounded-xl space-y-2 shadow-sm">
-            <h4 class="font-bold text-ink text-base">Beyond the Road: A Regional Perspective on Traffic Congestion in Metro Atlanta</h4>
-            <p class="text-xs text-ink-muted italic">Published in ISPRS International Journal of Geo-Information, 2025</p>
-            <p class="text-xs text-ink-muted leading-relaxed">Recommended citation: Seong, J. C., Lee, S., Cho, Y., & Hwang, C. S. (2025). Beyond the Road: A Regional Perspective on Traffic Congestion in Metro Atlanta. <em>ISPRS International Journal of Geo-Information</em>, 14(2), 61.</p>
-            <a href="./publications/2025_metro_atlanta.pdf" target="_blank" class="inline-block text-xs text-accent-blue font-semibold hover:underline pt-1">[Download Paper]</a>
-          </div>
-
+          <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
+            <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">ISPRS Journal</span>
+                  <span class="text-xs text-ink-muted">2025</span>
+                </div>
+                <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
+                  Beyond the Road: A Regional Perspective on Traffic Congestion in Metro Atlanta
+                </h4>
+                <p class="text-xs text-ink-muted">Seong, J. C., <strong>Lee, S.</strong>, Cho, Y., & Hwang, C. S. (2025). <em>ISPRS International Journal of Geo-Information</em>, 14(2), 61.</p>
+              </div>
+              <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
+                ▼
+              </span>
+            </summary>
+      
+            <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
+              <div>
+                <span class="font-bold text-ink block mb-1">Abstract</span>
+                <p class="text-ink-muted leading-relaxed">
+                  Traffic congestion analysis often focuses on localized segment speeds. This research expands the scope to a regional network perspective using spatiotemporal grid analysis and GeoAI modeling to uncover systemic bottleneck patterns across the metropolitan area.
+                </p>
+              </div>
+              <div>
+                <span class="font-bold text-ink block mb-1">Keywords</span>
+                <p class="text-ink-muted">Traffic Congestion, Regional Spatial Analysis, GeoAI, Spatiotemporal Modeling, ISPRS</p>
+              </div>
+              <div class="pt-2 flex gap-3">
+                <a href="./publications/2025_metro_atlanta.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
+                <a href="#" target="_blank" class="px-3 py-1 bg-paper border border-hairline text-ink rounded text-xs hover:border-accent-blue transition-colors">[DOI / Publisher Link]</a>
+              </div>
+            </div>
+          </details>
+      
           <!-- Paper 3 -->
-          <div class="p-5 bg-paper-soft border border-hairline rounded-xl space-y-2 shadow-sm">
-            <h4 class="font-bold text-ink text-base">Unveiling Spatial Disparities between Public Rental Housing and Young People's Daily Activity Spaces</h4>
-            <p class="text-xs text-ink-muted italic">Published in Journal of the Korean Geographical Society, 2024</p>
-            <p class="text-xs text-ink-muted leading-relaxed">Recommended citation: Lee, S., Hwang, T., Do Lee, W., & Hwang, C. S. (2024). 청년인구 일상 활동 영역과 행복주택 입지의 공간적 불일치에 관한 연구. <em>Journal of the Korean Geographical Society</em>, 59(4), 196-209.</p>
-            <a href="./publications/2024_rental_housing.pdf" target="_blank" class="inline-block text-xs text-accent-blue font-semibold hover:underline pt-1">[Download Paper]</a>
-          </div>
-
+          <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
+            <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
+                  <span class="text-xs text-ink-muted">2024</span>
+                </div>
+                <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
+                  Unveiling Spatial Disparities between Public Rental Housing and Young People's Daily Activity Spaces
+                </h4>
+                <p class="text-xs text-ink-muted"><strong>Lee, S.</strong>, Hwang, T., Do Lee, W., & Hwang, C. S. (2024). <em>Journal of the Korean Geographical Society</em>, 59(4), 196-209.</p>
+              </div>
+              <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
+                ▼
+              </span>
+            </summary>
+      
+            <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
+              <div>
+                <span class="font-bold text-ink block mb-1">Abstract</span>
+                <p class="text-ink-muted leading-relaxed">
+                  Examining the spatial mismatch between youth public rental housing locations and actual daily human mobility patterns. We demonstrate how static residential boundaries fail to capture dynamic activity spaces of young residents.
+                </p>
+              </div>
+              <div>
+                <span class="font-bold text-ink block mb-1">Keywords</span>
+                <p class="text-ink-muted">Public Rental Housing, Youth Activity Space, Spatial Inequity, Dynamic Mobility</p>
+              </div>
+              <div class="pt-2 flex gap-3">
+                <a href="./publications/2024_rental_housing.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
+              </div>
+            </div>
+          </details>
+      
           <!-- Paper 4 -->
-          <div class="p-5 bg-paper-soft border border-hairline rounded-xl space-y-2 shadow-sm">
-            <h4 class="font-bold text-ink text-base">Vulnerability Assessment for Pediatric Healthcare Services Using Agent-based Modeling: A Case Study of Four Districts in Southwest Seoul</h4>
-            <p class="text-xs text-ink-muted italic">Published in Journal of the Korean Geographical Society, 2024</p>
-            <p class="text-xs text-ink-muted leading-relaxed">Recommended citation: Kim, S., Lee, S., Kim, M., Lee, C., & Kang, J. Y. (2024). 에이전트 기반 모델링을 활용한 소아청소년 의료 서비스 취약지 분석. <em>Journal of the Korean Geographical Society</em>, 59(2), 196-209.</p>
-            <a href="./publications/2024_pediatric_healthcare.pdf" target="_blank" class="inline-block text-xs text-accent-blue font-semibold hover:underline pt-1">[Download Paper]</a>
-          </div>
-
+          <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
+            <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
+                  <span class="text-xs text-ink-muted">2024</span>
+                </div>
+                <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
+                  Vulnerability Assessment for Pediatric Healthcare Services Using Agent-based Modeling: A Case Study of Four Districts in Southwest Seoul
+                </h4>
+                <p class="text-xs text-ink-muted">Kim, S., <strong>Lee, S.</strong>, Kim, M., Lee, C., & Kang, J. Y. (2024). <em>Journal of the Korean Geographical Society</em>, 59(2), 196-209.</p>
+              </div>
+              <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
+                ▼
+              </span>
+            </summary>
+      
+            <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
+              <div>
+                <span class="font-bold text-ink block mb-1">Abstract</span>
+                <p class="text-ink-muted leading-relaxed">
+                  Utilizing Agent-Based Modeling (ABM) to simulate pediatric medical accessibility in Southwest Seoul, identifying healthcare deserts and estimating waiting time dynamics during peak hours.
+                </p>
+              </div>
+              <div>
+                <span class="font-bold text-ink block mb-1">Keywords</span>
+                <p class="text-ink-muted">Agent-Based Modeling, Pediatric Healthcare, Healthcare Accessibility, Spatial Simulation</p>
+              </div>
+              <div class="pt-2 flex gap-3">
+                <a href="./publications/2024_pediatric_healthcare.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
+              </div>
+            </div>
+          </details>
+      
           <!-- Paper 5 -->
-          <div class="p-5 bg-paper-soft border border-hairline rounded-xl space-y-2 shadow-sm">
-            <h4 class="font-bold text-ink text-base">Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods</h4>
-            <p class="text-xs text-ink-muted italic">Published in Journal of the Korean Geographical Society, 2023</p>
-            <p class="text-xs text-ink-muted leading-relaxed">Recommended citation: Lee, S., Hwang, T., Do Lee, W., & Hwang, C. S. (2023). 최근린 권역을 고려한 인구감소지역 간 흐름의 공간적 연관성 탐색에 관한 연구. <em>Journal of the Korean Geographical Society</em>, 58(6), 644-656.</p>
-            <a href="./publications/2023_intercity_flows.pdf" target="_blank" class="inline-block text-xs text-accent-blue font-semibold hover:underline pt-1">[Download Paper]</a>
-          </div>
+          <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
+            <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
+              <div class="space-y-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
+                  <span class="text-xs text-ink-muted">2023</span>
+                </div>
+                <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
+                  Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods
+                </h4>
+                <p class="text-xs text-ink-muted"><strong>Lee, S.</strong>, Hwang, T., Do Lee, W., & Hwang, C. S. (2023). <em>Journal of the Korean Geographical Society</em>, 58(6), 644-656.</p>
+              </div>
+              <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
+                ▼
+              </span>
+            </summary>
+      
+            <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
+              <div>
+                <span class="font-bold text-ink block mb-1">Abstract</span>
+                <p class="text-ink-muted leading-relaxed">
+                  Investigating intercity population flow patterns among shrinking regions in Korea using spatial flow statistics (SFlowLISA) to detect local spatial dependence and flow clusters.
+                </p>
+              </div>
+              <div>
+                <span class="font-bold text-ink block mb-1">Keywords</span>
+                <p class="text-ink-muted">Depopulation Regions, Intercity Population Flow, SFlowLISA, Spatial Flow Statistics</p>
+              </div>
+              <div class="pt-2 flex gap-3">
+                <a href="./publications/2023_intercity_flows.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
+              </div>
+            </div>
+          </details>
+      
         </div>
       </div>
+      
 
       <!-- TAB 5: WORK EXPERIENCES -->
       <div id="content-experiences" class="tab-pane hidden space-y-6">
