@@ -169,7 +169,7 @@
         <div class="bg-paper-soft border border-hairline rounded-xl p-5 flex justify-between items-center text-xs text-ink-muted">
           <div>
             <span class="font-semibold text-ink block text-sm">Full Curriculum Vitae</span>
-            <span>Updated: August 2026</span>
+            <span id="cv-updated-date">Updated: Loading...</span> <!-- id 추가 및 기본 텍스트 -->
           </div>
         </div>
 
@@ -460,6 +460,47 @@
     }
 
     window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash && document.getElementById('content-' + hash)) {
+        switchTab(hash);
+      } else {
+        switchTab('about');
+      }
+    });
+
+    // GitHub API를 통해 CV 파일의 최신 커밋 날짜 가져오기
+    async function updateCvDate() {
+      const username = 'seungyeon677';
+      const repo = 'seungyeon677.github.io';
+      const filePath = 'assets/pdf/Seungyeon_Lee_CV.pdf'; // 실제 깃허브 내 CV 파일 경로
+  
+      try {
+        const response = await fetch(`https://api.github.com/repos/${username}/${repo}/commits?path=${filePath}&page=1&per_page=1`);
+        
+        if (!response.ok) throw new Error('Network response was not ok');
+        
+        const data = await response.json();
+        if (data && data.length > 0) {
+          const commitDate = new Date(data[0].commit.committer.date);
+          
+          // 날짜 포맷팅 (예: "August 2026")
+          const formattedDate = commitDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long'
+          });
+          
+          document.getElementById('cv-updated-date').textContent = `Updated: ${formattedDate}`;
+        }
+      } catch (error) {
+        console.error('CV 날짜를 불러오는데 실패했습니다:', error);
+        document.getElementById('cv-updated-date').textContent = 'Updated: August 2026'; // 실패 시 기본 텍스트
+      }
+    }
+  
+    // 페이지 로드 시 실행
+    window.addEventListener('DOMContentLoaded', () => {
+      updateCvDate(); // CV 날짜 자동 업데이트 실행
+  
       const hash = window.location.hash.replace('#', '');
       if (hash && document.getElementById('content-' + hash)) {
         switchTab(hash);
