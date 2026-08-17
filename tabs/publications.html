@@ -77,144 +77,98 @@
 
     <!-- Paper 2 -->
     <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
+
+      <!-- 요약 헤더 (클릭 전 보이는 부분) -->
       <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
         <div class="space-y-1">
           <div class="flex items-center gap-2">
-            <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">ISPRS Journal</span>
-            <span class="text-xs text-ink-muted">2025</span>
+            <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
+            <span class="text-xs text-ink-muted">Feb 2025</span>
           </div>
           <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
             Beyond the Road: A Regional Perspective on Traffic Congestion in Metro Atlanta
           </h4>
-          <p class="text-xs text-ink-muted">Seong, J. C., <strong>Lee, S.</strong>, Cho, Y., & Hwang, C. S. (2025). <em>ISPRS International Journal of Geo-Information</em>, 14(2), 61.</p>
+          <p class="text-xs text-ink-muted">
+            Seong, J. C., <strong>Lee, S.</strong>, Cho, Y., & Hwang, C. S. (2025). Beyond the Road: A Regional Perspective on Traffic Congestion in Metro Atlanta. <em>ISPRS International Journal of Geo–Information, 14</em> (2), 61.
+          </p>
         </div>
+        <!-- 화살표 아이콘 -->
         <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
           ▼
         </span>
       </summary>
-
-      <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
+    
+      <!-- 펼침 상세 영역 (Abstract, PDF 버튼, Figures) -->
+      <div class="px-5 pb-5 pt-3 border-t border-hairline text-xs space-y-4 bg-paper/30">
+        
+        <!-- Abstract -->
         <div>
-          <span class="font-bold text-ink block mb-1">Abstract</span>
+          <span class="font-bold text-ink block mb-1 text-sm">Abstract</span>
           <p class="text-ink-muted leading-relaxed">
-            Traffic congestion analysis often focuses on localized segment speeds. This research expands the scope to a regional network perspective using spatiotemporal grid analysis and GeoAI modeling to uncover systemic bottleneck patterns across the metropolitan area.
+            Traffic congestion not only affects traffic flow but also influences public perception of congested regions. While analyzing congestion at the road section level can help identify engineering solutions, it often fails to reveal broader spatial patterns and trends at the regional or macro scale unless summarized effectively. This study aims to address these challenges by focusing on regional-scale traffic congestion amounts measured by distanceTime metrics. A 12–month dataset, sampled every 10 min, was analyzed to identify spatial patterns, temporal trends, regional variations, and predictive models in the Metro Atlanta area. The results show that congestion is the most severe and increasing at key urban corridors like Brookhaven–Sandy Springs, the downtown connector, Druid Hills–Decatur, and Johns Creek–Cumming, aligning with recent urban developments. Cities such as Alpharetta, Dunwoody, Brookhaven, Austell, Stone Mountain, East Point, Lake City, Morrow, Fairburn, and Jonesboro show high increasing trends in congestion. Predictive modeling with the long short-term memory (LSTM) method shows promising results for short-term forecasts, though variability in data requires further optimization for certain cities. This research is significant because it demonstrates that congestion amounts measured by distanceTime metrics can be used for assessing regional characteristics broadly at a metropolitan city scale. The findings and methodologies identified in this research might support urban and transportation planning efforts in metropolitan planning organizations, such as the Atlanta Regional Commission, by identifying congestion amounts and trends at both the regional and road scales.
           </p>
         </div>
+    
+        <!-- Download Paper Button -->
         <div>
-          <span class="font-bold text-ink block mb-1">Keywords</span>
-          <p class="text-ink-muted">Traffic Congestion, Regional Spatial Analysis, GeoAI, Spatiotemporal Modeling, ISPRS</p>
+          <a href="https://www.mdpi.com/2220-9964/14/2/61" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-accent-blue text-white rounded-lg text-xs font-medium hover:bg-opacity-90 transition-colors shadow-sm">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Download Paper (PDF)
+          </a>
         </div>
-        <div class="pt-2 flex gap-3">
-          <a href="./publications/2025_metro_atlanta.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
-          <a href="#" target="_blank" class="px-3 py-1 bg-paper border border-hairline text-ink rounded text-xs hover:border-accent-blue transition-colors">[DOI / Publisher Link]</a>
-        </div>
-      </div>
-    </details>
-
-    <!-- Paper 3 -->
-    <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
-      <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
-        <div class="space-y-1">
-          <div class="flex items-center gap-2">
-            <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
-            <span class="text-xs text-ink-muted">2024</span>
+    
+        <!-- Figures Section (이미지 5개 배치) -->
+        <div class="pt-3 border-t border-hairline space-y-2">
+          <span class="font-bold text-ink block text-sm">Key Figures</span>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- Figure 1 -->
+            <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm">
+              <img src="./assets/img/ijgi2025_1.png" alt="Figure 1" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+1'">
+              <p class="text-[11px] text-ink-muted">
+                <strong>Figure 1.</strong> Annual congestion amount
+              </p>
+            </div>
+    
+            <!-- Figure 2 -->
+            <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm">
+              <img src="./assets/img/ijgi2025_2.png" alt="Figure 2" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+2'">
+              <p class="text-[11px] text-ink-muted">
+                <strong>Figure 2.</strong> Mann-Kendall test results
+              </p>
+            </div>
+    
+            <!-- Figure 3 -->
+            <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm">
+              <img src="./assets/img/ijgi2025_3.png" alt="Figure 3" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+3'">
+              <p class="text-[11px] text-ink-muted">
+                <strong>Figure 3.</strong> Annual average daily congestion (AADC) amounts
+              </p>
+            </div>
+    
+            <!-- Figure 4 -->
+            <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm">
+              <img src="./assets/img/ijgi2025_4.png" alt="Figure 4" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+4'">
+              <p class="text-[11px] text-ink-muted">
+                <strong>Figure 4.</strong> Normalized congestion amounts
+              </p>
+            </div>
+    
+            <!-- Figure 5 -->
+            <div class="bg-paper border border-hairline rounded-xl p-3 text-center space-y-2 shadow-sm md:col-span-2 max-w-lg mx-auto w-full">
+              <img src="./assets/img/ijgi2025_5.png" alt="Figure 5" class="w-full h-auto rounded-lg border border-hairline object-contain" onerror="this.src='https://via.placeholder.com/400x250?text=Figure+5'">
+              <p class="text-[11px] text-ink-muted">
+                <strong>Figure 5.</strong> Mann-Kendall test results
+              </p>
+            </div>
           </div>
-          <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
-            Unveiling Spatial Disparities between Public Rental Housing and Young People's Daily Activity Spaces
-          </h4>
-          <p class="text-xs text-ink-muted"><strong>Lee, S.</strong>, Hwang, T., Do Lee, W., & Hwang, C. S. (2024). <em>Journal of the Korean Geographical Society</em>, 59(4), 196-209.</p>
         </div>
-        <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
-          ▼
-        </span>
-      </summary>
-
-      <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
-        <div>
-          <span class="font-bold text-ink block mb-1">Abstract</span>
-          <p class="text-ink-muted leading-relaxed">
-            Examining the spatial mismatch between youth public rental housing locations and actual daily human mobility patterns. We demonstrate how static residential boundaries fail to capture dynamic activity spaces of young residents.
-          </p>
-        </div>
-        <div>
-          <span class="font-bold text-ink block mb-1">Keywords</span>
-          <p class="text-ink-muted">Public Rental Housing, Youth Activity Space, Spatial Inequity, Dynamic Mobility</p>
-        </div>
-        <div class="pt-2 flex gap-3">
-          <a href="./publications/2024_rental_housing.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
-        </div>
+        
       </div>
     </details>
+    
 
-    <!-- Paper 4 -->
-    <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
-      <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
-        <div class="space-y-1">
-          <div class="flex items-center gap-2">
-            <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
-            <span class="text-xs text-ink-muted">2024</span>
-          </div>
-          <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
-            Vulnerability Assessment for Pediatric Healthcare Services Using Agent-based Modeling: A Case Study of Four Districts in Southwest Seoul
-          </h4>
-          <p class="text-xs text-ink-muted">Kim, S., <strong>Lee, S.</strong>, Kim, M., Lee, C., & Kang, J. Y. (2024). <em>Journal of the Korean Geographical Society</em>, 59(2), 196-209.</p>
-        </div>
-        <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
-          ▼
-        </span>
-      </summary>
-
-      <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
-        <div>
-          <span class="font-bold text-ink block mb-1">Abstract</span>
-          <p class="text-ink-muted leading-relaxed">
-            Utilizing Agent-Based Modeling (ABM) to simulate pediatric medical accessibility in Southwest Seoul, identifying healthcare deserts and estimating waiting time dynamics during peak hours.
-          </p>
-        </div>
-        <div>
-          <span class="font-bold text-ink block mb-1">Keywords</span>
-          <p class="text-ink-muted">Agent-Based Modeling, Pediatric Healthcare, Healthcare Accessibility, Spatial Simulation</p>
-        </div>
-        <div class="pt-2 flex gap-3">
-          <a href="./publications/2024_pediatric_healthcare.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
-        </div>
-      </div>
-    </details>
-
-    <!-- Paper 5 -->
-    <details class="group bg-paper-soft border border-hairline rounded-xl shadow-sm transition-all overflow-hidden">
-      <summary class="p-5 cursor-pointer list-none flex justify-between items-start gap-4 hover:bg-paper/50 transition-colors">
-        <div class="space-y-1">
-          <div class="flex items-center gap-2">
-            <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-paper border border-hairline text-accent-blue rounded">Journal Article</span>
-            <span class="text-xs text-ink-muted">2023</span>
-          </div>
-          <h4 class="font-bold text-ink text-base group-open:text-accent-blue transition-colors">
-            Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods
-          </h4>
-          <p class="text-xs text-ink-muted"><strong>Lee, S.</strong>, Hwang, T., Do Lee, W., & Hwang, C. S. (2023). <em>Journal of the Korean Geographical Society</em>, 58(6), 644-656.</p>
-        </div>
-        <span class="text-xs text-accent-blue font-semibold whitespace-nowrap pt-1 group-open:rotate-180 transition-transform">
-          ▼
-        </span>
-      </summary>
-
-      <div class="px-5 pb-5 pt-2 border-t border-hairline text-xs space-y-3 bg-paper/30">
-        <div>
-          <span class="font-bold text-ink block mb-1">Abstract</span>
-          <p class="text-ink-muted leading-relaxed">
-            Investigating intercity population flow patterns among shrinking regions in Korea using spatial flow statistics (SFlowLISA) to detect local spatial dependence and flow clusters.
-          </p>
-        </div>
-        <div>
-          <span class="font-bold text-ink block mb-1">Keywords</span>
-          <p class="text-ink-muted">Depopulation Regions, Intercity Population Flow, SFlowLISA, Spatial Flow Statistics</p>
-        </div>
-        <div class="pt-2 flex gap-3">
-          <a href="./publications/2023_intercity_flows.pdf" target="_blank" class="px-3 py-1 bg-accent-blue text-white rounded text-xs font-medium hover:bg-opacity-90 transition-colors">[Download PDF]</a>
-        </div>
-      </div>
-    </details>
 
   </div>
 </div>
+
