@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seungyeon Lee | Academic Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'sans-serif'],
+            serif: ['Newsreader', 'Georgia', 'serif'],
+          },
+          colors: {
+            paper: '#f5f4ef',       /* 눈이 편한 종이 바탕색 */
+            'paper-soft': '#faf9f5',  /* 카드의 보조 바탕색 */
+            ink: '#1c1c1a',         /* 가독성 높은 메인 텍스트 */
+            'ink-muted': '#5c5b57',   /* 서브 텍스트 */
+            hairline: '#e2e0d8',     /* 은은한 구분선 */
+            accent: '#2b5278',       /* 은은한 학술적 포인트 블루 */
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #f5f4ef; color: #1c1c1a; }
+  </style>
+</head>
+<body class="font-sans antialiased selection:bg-hairline min-h-screen flex flex-col">
+
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-50 bg-paper/90 backdrop-blur-md border-b border-hairline px-6 py-4">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+      <a href="javascript:void(0)" onclick="switchTab('about')" class="font-serif font-medium text-xl tracking-tight text-ink hover:text-accent transition-colors">
+        Seungyeon Lee
+      </a>
+      
+      <!-- 탭 메뉴 (클릭 시 해당 탭으로 전환) -->
+      <nav class="flex flex-wrap justify-center gap-1 sm:gap-2 text-sm">
+        <button id="tab-btn-about" onclick="switchTab('about')" class="nav-btn px-3 py-1.5 rounded-md text-ink font-medium bg-paper-soft border border-hairline transition-all">About</button>
+        <button id="tab-btn-cv" onclick="switchTab('cv')" class="nav-btn px-3 py-1.5 rounded-md text-ink-muted hover:text-ink hover:bg-paper-soft transition-all">CV</button>
+        <button id="tab-btn-publications" onclick="switchTab('publications')" class="nav-btn px-3 py-1.5 rounded-md text-ink-muted hover:text-ink hover:bg-paper-soft transition-all">Publications</button>
+        <button id="tab-btn-education" onclick="switchTab('education')" class="nav-btn px-3 py-1.5 rounded-md text-ink-muted hover:text-ink hover:bg-paper-soft transition-all">Education</button>
+        <button id="tab-btn-experiences" onclick="switchTab('experiences')" class="nav-btn px-3 py-1.5 rounded-md text-ink-muted hover:text-ink hover:bg-paper-soft transition-all">Experiences</button>
+        <button id="tab-btn-skills" onclick="switchTab('skills')" class="nav-btn px-3 py-1.5 rounded-md text-ink-muted hover:text-ink hover:bg-paper-soft transition-all">Skills</button>
+        <button id="tab-btn-news" onclick="switchTab('news')" class="nav-btn px-3 py-1.5 rounded-md text-ink-muted hover:text-ink hover:bg-paper-soft transition-all">News</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Layout Container -->
+  <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-12 gap-12 flex-grow w-full">
+
+    <!-- Left Sidebar (고정 프로필 영역) -->
+    <aside class="md:col-span-4 space-y-6">
+      <div class="md:sticky md:top-24 space-y-6">
+        <!-- Profile Picture Frame -->
+        <div class="w-40 h-40 rounded-full overflow-hidden border border-hairline bg-paper-soft shadow-sm">
+          <img src="./assets/img/profile.jpg" alt="Seungyeon Lee Profile" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/160?text=Profile'">
+        </div>
+
+        <!-- Name & Bio Title -->
+        <div>
+          <h1 class="text-2xl font-serif font-medium text-ink">Seungyeon Lee</h1>
+          <p class="text-xs font-medium text-accent mt-1 uppercase tracking-wider">M.S. in Geography</p>
+        </div>
+
+        <p class="text-sm text-ink-muted leading-relaxed">
+          M.S. in Geography from Kyung Hee University <span class="text-hairline">|</span> Prospective Ph.D. Applicant <span class="text-hairline">|</span> Human Mobility Patterns & Spatial Network Analysis.
+        </p>
+
+        <!-- Social / Contact Links -->
+        <div class="pt-4 border-t border-hairline space-y-2.5 text-sm">
+          <a href="mailto:your.email@example.com" class="flex items-center text-ink-muted hover:text-accent transition-colors gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            Email
+          </a>
+          <a href="https://scholar.google.com" target="_blank" class="flex items-center text-ink-muted hover:text-accent transition-colors gap-2">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l12 9.5 12-9.5L12 0z"/></svg>
+            Google Scholar
+          </a>
+          <a href="https://github.com/seungyeon677" target="_blank" class="flex items-center text-ink-muted hover:text-accent transition-colors gap-2">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="flex items-center text-ink-muted hover:text-accent transition-colors gap-2">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Panel (탭 선택에 따라 변하는 영역) -->
+    <main class="md:col-span-8">
+
+      <!-- TAB 1: ABOUT ME (기본 화면) -->
+      <div id="content-about" class="tab-pane space-y-12">
+        <section class="space-y-6">
+          <h2 class="text-3xl font-serif font-medium border-b border-hairline pb-3">About Me</h2>
+          <p class="text-lg font-serif italic text-ink">
+            Hello, I'm <span class="font-semibold non-italic">Seungyeon Lee</span>.
+          </p>
+          <div class="space-y-4 text-ink-muted leading-relaxed text-sm md:text-base">
+            <p>
+              I am a passionate researcher specializing in <strong class="text-ink font-medium">Human Mobility Patterns</strong> and <strong class="text-ink font-medium">Spatial Network Analysis</strong>. My research journey begins with a fundamental question: <em class="font-serif text-ink italic">How can we interpret complex movement patterns on road networks to predict regional changes and resolve social inequity?</em>
+            </p>
+            <p>
+              My core strength lies in <strong class="text-ink font-medium">shifting social equity discussions from static, frozen urban representations to living, dynamic dimensions</strong> that evolve hour by hour, day by day. Ultimately, my goal is to design safer, smarter, and more resilient urban systems where essential infrastructure and public services are equitably accessible to everyone.
+            </p>
+            <p class="pt-2 text-sm text-ink-muted/80">
+              Outside of my research, you can usually find me nurturing my indoor plants 🪴, sketching 🎨, or enjoying long walks with my dog 🐾.
+            </p>
+          </div>
+        </section>
+
+        <!-- Research Interests -->
+        <section class="space-y-6">
+          <h2 class="text-2xl font-serif font-medium border-b border-hairline pb-2">Research Interests</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="bg-paper-soft border border-hairline rounded-lg p-5">
+              <div class="w-8 h-8 rounded bg-paper border border-hairline flex items-center justify-center text-sm mb-3">🌐</div>
+              <h3 class="font-medium text-ink mb-1 text-sm">Spatio-temporal Data Science & Network Analysis</h3>
+              <p class="text-xs text-ink-muted leading-relaxed">Analyzing human movement dynamics and structural connectivity across urban spaces.</p>
+            </div>
+            <div class="bg-paper-soft border border-hairline rounded-lg p-5">
+              <div class="w-8 h-8 rounded bg-paper border border-hairline flex items-center justify-center text-sm mb-3">⚙️</div>
+              <h3 class="font-medium text-ink mb-1 text-sm">GeoAI for Smart & Resilient Cities</h3>
+              <p class="text-xs text-ink-muted leading-relaxed">Leveraging artificial intelligence to predict regional changes and build sustainable infrastructure.</p>
+            </div>
+            <div class="bg-paper-soft border border-hairline rounded-lg p-5">
+              <div class="w-8 h-8 rounded bg-paper border border-hairline flex items-center justify-center text-sm mb-3">🚗</div>
+              <h3 class="font-medium text-ink mb-1 text-sm">Transportation Safety & Accessibility</h3>
+              <p class="text-xs text-ink-muted leading-relaxed">Evaluating access to essential services and improving road network safety metrics.</p>
+            </div>
+            <div class="bg-paper-soft border border-hairline rounded-lg p-5">
+              <div class="w-8 h-8 rounded bg-paper border border-hairline flex items-center justify-center text-sm mb-3">📍</div>
+              <h3 class="font-medium text-ink mb-1 text-sm">Dynamic Urban Vulnerability & Spatial Equity</h3>
+              <p class="text-xs text-ink-muted leading-relaxed">Transitioning urban equity analysis into dynamic, time-aware spatial dimensions.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- TAB 2: CV -->
+      <div id="content-cv" class="tab-pane hidden space-y-6">
+        <div class="flex justify-between items-center border-b border-hairline pb-3">
+          <h2 class="text-3xl font-serif font-medium">Curriculum Vitae</h2>
+          <a href="./assets/pdf/Seungyeon_Lee_CV.pdf" target="_blank" class="inline-flex items-center gap-2 px-3 py-1.5 bg-paper-soft border border-hairline rounded-md text-xs font-medium text-accent hover:border-accent transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Download Full CV (PDF)
+          </a>
+        </div>
+        <p class="text-sm text-ink-muted">My full academic background, research experience, and honors summary.</p>
+        
+        <!-- 미리보기 폼 (PDF 임베드 또는 요약 텍스트) -->
+        <div class="bg-paper-soft border border-hairline rounded-lg p-6 space-y-4">
+          <h3 class="font-serif font-medium text-lg border-b border-hairline pb-2">Executive Summary</h3>
+          <ul class="list-disc list-inside text-sm text-ink-muted space-y-2">
+            <li><strong>M.S. in Geography</strong>, Kyung Hee University (Seoul, Korea)</li>
+            <li>Specialization in Spatial Network Analysis and Human Mobility Prediction</li>
+            <li>Proficient in Python (GeoPandas, PyTorch, NetworkX), R, QGIS, and Spatial Statistics</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TAB 3: PUBLICATIONS -->
+      <div id="content-publications" class="tab-pane hidden space-y-6">
+        <h2 class="text-3xl font-serif font-medium border-b border-hairline pb-3">Publications & Preprints</h2>
+        
+        <div class="space-y-4">
+          <!-- Journal Paper Item 1 -->
+          <div class="p-5 bg-paper-soft border border-hairline rounded-lg space-y-2">
+            <div class="flex items-center gap-2">
+              <span class="text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 bg-paper border border-hairline rounded text-accent">Journal Article</span>
+              <span class="text-xs text-ink-muted">2026</span>
+            </div>
+            <h3 class="font-medium text-ink text-base">Interpreting Complex Movement Patterns on Urban Road Networks</h3>
+            <p class="text-sm text-ink-muted"><strong>Seungyeon Lee</strong>, Co-Author Name. <em>Journal of Spatial Science (Under Review)</em></p>
+            <div class="flex gap-3 text-xs text-accent pt-1">
+              <a href="./publications/2026_paper.pdf" target="_blank" class="hover:underline">[PDF]</a>
+              <a href="#" class="hover:underline">[DOI / Link]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 4: EDUCATION -->
+      <div id="content-education" class="tab-pane hidden space-y-6">
+        <h2 class="text-3xl font-serif font-medium border-b border-hairline pb-3">Education</h2>
+        
+        <div class="space-y-6">
+          <div class="border-l-2 border-hairline pl-4 space-y-1">
+            <div class="flex justify-between items-baseline">
+              <h3 class="font-medium text-ink">Kyung Hee University</h3>
+              <span class="text-xs text-ink-muted">Seoul, South Korea</span>
+            </div>
+            <p class="text-sm text-accent font-medium">M.S. in Geography</p>
+            <p class="text-xs text-ink-muted">Thesis: Human Mobility Patterns and Spatial Equity in Urban Networks</p>
+          </div>
+
+          <div class="border-l-2 border-hairline pl-4 space-y-1">
+            <div class="flex justify-between items-baseline">
+              <h3 class="font-medium text-ink">Kyung Hee University</h3>
+              <span class="text-xs text-ink-muted">Seoul, South Korea</span>
+            </div>
+            <p class="text-sm text-accent font-medium">B.S. in Geography</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 5: WORK EXPERIENCES -->
+      <div id="content-experiences" class="tab-pane hidden space-y-6">
+        <h2 class="text-3xl font-serif font-medium border-b border-hairline pb-3">Work Experiences</h2>
+        
+        <div class="space-y-6">
+          <div class="p-5 bg-paper-soft border border-hairline rounded-lg space-y-2">
+            <div class="flex justify-between items-baseline">
+              <h3 class="font-medium text-ink">Graduate Research Assistant</h3>
+              <span class="text-xs text-ink-muted">2024 – Present</span>
+            </div>
+            <p class="text-xs text-accent">Spatial Data Science Lab, Kyung Hee University</p>
+            <ul class="list-disc list-inside text-xs text-ink-muted space-y-1 pt-2">
+              <li>Analyzed large-scale floating population GPS datasets for dynamic vulnerability modeling.</li>
+              <li>Collaborated on national GIS research projects addressing transit accessibility.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 6: SKILLS -->
+      <div id="content-skills" class="tab-pane hidden space-y-6">
+        <h2 class="text-3xl font-serif font-medium border-b border-hairline pb-3">Skills & Methodologies</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-4 bg-paper-soft border border-hairline rounded-lg space-y-2">
+            <h3 class="font-medium text-sm text-ink border-b border-hairline pb-1">Programming & Data Analysis</h3>
+            <p class="text-xs text-ink-muted leading-relaxed">Python (GeoPandas, NetworkX, PyTorch, NumPy), R (sf, spatstat), SQL</p>
+          </div>
+          <div class="p-4 bg-paper-soft border border-hairline rounded-lg space-y-2">
+            <h3 class="font-medium text-sm text-ink border-b border-hairline pb-1">GIS & Spatial Tools</h3>
+            <p class="text-xs text-ink-muted leading-relaxed">QGIS, ArcGIS Pro, Spatial Statistics, Network Analysis, Agent-Based Simulation</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 7: NEWS -->
+      <div id="content-news" class="tab-pane hidden space-y-6">
+        <h2 class="text-3xl font-serif font-medium border-b border-hairline pb-3">News & Updates</h2>
+        
+        <ul class="space-y-4">
+          <li class="flex gap-4 items-start border-b border-hairline pb-4">
+            <span class="text-xs font-semibold text-accent w-20 shrink-0 pt-0.5">Aug 2026</span>
+            <p class="text-sm text-ink-muted">Updated personal academic portfolio website with paper-editorial design theme.</p>
+          </li>
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-hairline py-6 text-center text-xs text-ink-muted mt-auto">
+    <p>© 2026 Seungyeon Lee. Powered by GitHub Pages.</p>
+  </footer>
+
+  <!-- 탭 전환 스크립트 (Vanilla JavaScript) -->
+  <script>
+    function switchTab(tabId) {
+      // 1. 모든 탭 내용 숨기기
+      const panes = document.querySelectorAll('.tab-pane');
+      panes.forEach(pane => pane.classList.add('hidden'));
+
+      // 2. 모든 버튼 스타일 초기화
+      const buttons = document.querySelectorAll('.nav-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('text-ink', 'font-medium', 'bg-paper-soft', 'border', 'border-hairline');
+        btn.classList.add('text-ink-muted');
+      });
+
+      // 3. 선택한 탭 내용 보여주기
+      const targetPane = document.getElementById('content-' + tabId);
+      if (targetPane) {
+        targetPane.classList.remove('hidden');
+      }
+
+      // 4. 선택한 버튼 강조 스타일 적용
+      const targetBtn = document.getElementById('tab-btn-' + tabId);
+      if (targetBtn) {
+        targetBtn.classList.add('text-ink', 'font-medium', 'bg-paper-soft', 'border', 'border-hairline');
+        targetBtn.classList.remove('text-ink-muted');
+      }
+
+      // 5. URL 해시(#) 업데이트 (예: #cv, #publications)
+      window.location.hash = tabId;
+    }
+
+    // 페이지 접속 시 URL 뒤의 #탭이름 확인해서 자동 선택
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash && document.getElementById('content-' + hash)) {
+        switchTab(hash);
+      } else {
+        switchTab('about');
+      }
+    });
+  </script>
+</body>
+</html>
