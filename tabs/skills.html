@@ -69,11 +69,11 @@
   <div class="space-y-4">
     <h3 class="text-xl font-serif font-bold text-accent-blue">Research Methodologies</h3>
     
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <!-- Spatial Statistics -->
+    <div class="space-y-4">
+      <!-- Top Row: Spatial Statistics (전체 너비 배치) -->
       <div class="bg-paper-soft border border-hairline rounded-xl p-6 space-y-3 shadow-sm">
         <h4 class="font-bold text-ink text-sm border-b border-hairline pb-2">Spatial Statistics</h4>
-        <ul class="space-y-2 text-xs text-ink-muted">
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-xs text-ink-muted">
           <li>• <strong>Spatial Autocorrelation:</strong> Moran’s I, LISA</li>
           <li>• <strong>Spatial Clustering:</strong> Getis-Ord Gi*</li>
           <li>• <strong>Spatial Flow Association:</strong> SFlowLISA, BiFlowLISA</li>
@@ -82,23 +82,26 @@
         </ul>
       </div>
 
-      <!-- Spatial Analysis -->
-      <div class="bg-paper-soft border border-hairline rounded-xl p-6 space-y-3 shadow-sm border-l-4 border-l-accent-blue">
-        <h4 class="font-bold text-ink text-sm border-b border-hairline pb-2">Spatial Analysis</h4>
-        <ul class="space-y-2 text-xs text-ink-muted">
-          <li>• <strong>Road Network Analysis:</strong> Dijkstra’s algorithm, Service Area</li>
-          <li>• <strong>Accessibility:</strong> 2SFCA, E2SFCA</li>
-          <li>• <strong>Agent-based Modeling</strong></li>
-        </ul>
-      </div>
+      <!-- Bottom Row: Spatial Analysis & AI (하단 2컬럼 병렬 배치) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Spatial Analysis -->
+        <div class="bg-paper-soft border border-hairline rounded-xl p-6 space-y-3 shadow-sm border-l-4 border-l-accent-blue">
+          <h4 class="font-bold text-ink text-sm border-b border-hairline pb-2">Spatial Analysis</h4>
+          <ul class="space-y-2 text-xs text-ink-muted">
+            <li>• <strong>Road Network Analysis:</strong> Dijkstra’s algorithm, Service Area</li>
+            <li>• <strong>Accessibility:</strong> 2SFCA, E2SFCA</li>
+            <li>• <strong>Agent-based Modeling</strong></li>
+          </ul>
+        </div>
 
-      <!-- AI -->
-      <div class="bg-paper-soft border border-hairline rounded-xl p-6 space-y-3 shadow-sm border-l-4 border-l-accent">
-        <h4 class="font-bold text-ink text-sm border-b border-hairline pb-2">AI</h4>
-        <ul class="space-y-2 text-xs text-ink-muted">
-          <li>• <strong>GeoAI:</strong> GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
-          <li>• <strong>Machine Learning:</strong> Linear Algebra, LSTM, Random Forest, XGBoost</li>
-        </ul>
+        <!-- AI -->
+        <div class="bg-paper-soft border border-hairline rounded-xl p-6 space-y-3 shadow-sm border-l-4 border-l-accent">
+          <h4 class="font-bold text-ink text-sm border-b border-hairline pb-2">AI</h4>
+          <ul class="space-y-2 text-xs text-ink-muted">
+            <li>• <strong>GeoAI:</strong> GNN-based frameworks (GCN, TGCN, STGCN, GC-LSTM)</li>
+            <li>• <strong>Machine Learning:</strong> Linear Algebra, LSTM, Random Forest, XGBoost</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
